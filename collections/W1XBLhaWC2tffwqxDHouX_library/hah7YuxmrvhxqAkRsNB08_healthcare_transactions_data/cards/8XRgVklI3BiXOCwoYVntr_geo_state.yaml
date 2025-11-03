@@ -1,0 +1,145 @@
+description: null
+archived: false
+collection_position: null
+source_card_id: null
+table_id:
+- Test Postrges DB
+- healthcare_transactions_demo
+- geo_state
+result_metadata:
+- database_type: serial
+  semantic_type: type/PK
+  table_id:
+  - Test Postrges DB
+  - healthcare_transactions_demo
+  - geo_state
+  qp/implicit-field?: true
+  lib/deduplicated-name: state_id
+  lib/original-name: state_id
+  name: state_id
+  lib/source: source/table-defaults
+  lib/source-column-alias: state_id
+  lib/original-display-name: State ID
+  source: fields
+  field_ref:
+  - field
+  - - Test Postrges DB
+    - healthcare_transactions_demo
+    - geo_state
+    - state_id
+  - null
+  effective_type: type/Integer
+  active: true
+  id:
+  - Test Postrges DB
+  - healthcare_transactions_demo
+  - geo_state
+  - state_id
+  lib/desired-column-alias: state_id
+  position: 0
+  visibility_type: normal
+  display_name: State ID
+  base_type: type/Integer
+- database_type: varchar
+  semantic_type: type/State
+  table_id:
+  - Test Postrges DB
+  - healthcare_transactions_demo
+  - geo_state
+  qp/implicit-field?: true
+  lib/deduplicated-name: state_code
+  lib/original-name: state_code
+  name: state_code
+  lib/source: source/table-defaults
+  lib/source-column-alias: state_code
+  lib/original-display-name: State Code
+  source: fields
+  field_ref:
+  - field
+  - - Test Postrges DB
+    - healthcare_transactions_demo
+    - geo_state
+    - state_code
+  - null
+  effective_type: type/Text
+  active: true
+  id:
+  - Test Postrges DB
+  - healthcare_transactions_demo
+  - geo_state
+  - state_code
+  lib/desired-column-alias: state_code
+  position: 1
+  visibility_type: normal
+  display_name: State Code
+  base_type: type/Text
+- database_type: varchar
+  semantic_type: type/State
+  table_id:
+  - Test Postrges DB
+  - healthcare_transactions_demo
+  - geo_state
+  qp/implicit-field?: true
+  lib/deduplicated-name: state_name
+  lib/original-name: state_name
+  name: state_name
+  lib/source: source/table-defaults
+  lib/source-column-alias: state_name
+  lib/original-display-name: State Name
+  source: fields
+  field_ref:
+  - field
+  - - Test Postrges DB
+    - healthcare_transactions_demo
+    - geo_state
+    - state_name
+  - null
+  effective_type: type/Text
+  active: true
+  id:
+  - Test Postrges DB
+  - healthcare_transactions_demo
+  - geo_state
+  - state_name
+  lib/desired-column-alias: state_name
+  position: 2
+  visibility_type: normal
+  display_name: State Name
+  base_type: type/Text
+card_schema: 22
+database_id: Test Postrges DB
+enable_embedding: false
+collection_id: hah7YuxmrvhxqAkRsNB08
+query_type: query
+name: Geo State
+document_id: null
+type: question
+creator_id: katya@metabase.com
+made_public_by_id: null
+embedding_params: null
+dataset_query:
+  database: Test Postrges DB
+  type: query
+  query:
+    source-table:
+    - Test Postrges DB
+    - healthcare_transactions_demo
+    - geo_state
+parameter_mappings: []
+serdes/meta:
+- model: Card
+  id: 8XRgVklI3BiXOCwoYVntr
+  label: geo_state
+display: table
+archived_directly: false
+entity_id: 8XRgVklI3BiXOCwoYVntr
+collection_preview: true
+visualization_settings:
+  table.pivot_column: state_id
+  table.cell_column: state_name
+  column_settings: null
+metabase_version: vLOCAL_DEV (06d1ba2ae111e66253209c01c244d6379acfc6dcb1911fa9ab6012cec9ce52e5)
+parameters: []
+dashboard_id: null
+created_at: '2025-11-03T19:00:35.551157Z'
+public_uuid: null
