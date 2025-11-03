@@ -1,0 +1,65 @@
+description: null
+archived: false
+collection_position: null
+dashcards:
+- size_x: 24
+  dashboard_tab_id: null
+  series: []
+  inline_parameters: []
+  action_id: null
+  col: 0
+  parameter_mappings: []
+  serdes/meta:
+  - model: Dashboard
+    id: OXGzU56IMeLVhBX15dW1X
+  - model: DashboardCard
+    id: K9tqtsRxFikV6GOn46fWC
+  card_id: vtq7sLDtcaOBQfMNdh75U
+  entity_id: K9tqtsRxFikV6GOn46fWC
+  visualization_settings:
+    column_settings: null
+  size_y: 12
+  created_at: '2025-11-03T18:43:01.147441Z'
+  row: 0
+- size_x: 12
+  dashboard_tab_id: null
+  series: []
+  inline_parameters: []
+  action_id: null
+  col: 0
+  parameter_mappings: []
+  serdes/meta:
+  - model: Dashboard
+    id: OXGzU56IMeLVhBX15dW1X
+  - model: DashboardCard
+    id: SXJP9tLr1-jknEu_usZ1y
+  card_id: eKLfEMyKzH0tmpYG1pb6Q
+  entity_id: SXJP9tLr1-jknEu_usZ1y
+  visualization_settings:
+    column_settings: null
+  size_y: 8
+  created_at: '2025-11-03T18:43:49.292014Z'
+  row: 12
+initially_published_at: null
+tabs: []
+enable_embedding: false
+collection_id: hah7YuxmrvhxqAkRsNB08
+show_in_getting_started: false
+name: Transactions tracker
+width: fixed
+caveats: null
+creator_id: katya@metabase.com
+made_public_by_id: null
+embedding_params: null
+serdes/meta:
+- model: Dashboard
+  id: OXGzU56IMeLVhBX15dW1X
+  label: transactions_tracker
+position: null
+archived_directly: false
+entity_id: OXGzU56IMeLVhBX15dW1X
+parameters: []
+auto_apply_filters: true
+created_at: '2025-11-03T18:42:29.8257Z'
+public_uuid: null
+points_of_interest: null
