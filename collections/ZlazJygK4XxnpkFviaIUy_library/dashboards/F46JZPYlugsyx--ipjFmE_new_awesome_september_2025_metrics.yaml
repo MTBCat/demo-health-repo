@@ -1,0 +1,85 @@
+description: null
+archived: false
+collection_position: null
+dashcards:
+- size_x: 24
+  dashboard_tab_id: null
+  series: []
+  inline_parameters: []
+  action_id: null
+  col: 0
+  parameter_mappings: []
+  serdes/meta:
+  - model: Dashboard
+    id: F46JZPYlugsyx--ipjFmE
+  - model: DashboardCard
+    id: 1LksOLaEERZ6wwhnKiiJj
+  card_id: PZyS9TYqRNpyqM5IO95Cn
+  entity_id: 1LksOLaEERZ6wwhnKiiJj
+  visualization_settings:
+    column_settings: null
+  size_y: 11
+  created_at: '2025-11-04T13:16:46.485796Z'
+  row: 0
+- size_x: 12
+  dashboard_tab_id: null
+  series: []
+  inline_parameters: []
+  action_id: null
+  col: 0
+  parameter_mappings: []
+  serdes/meta:
+  - model: Dashboard
+    id: F46JZPYlugsyx--ipjFmE
+  - model: DashboardCard
+    id: Qo6WUKrAupx18SY3970bG
+  card_id: TAFglSPT0Eo_3gXcpnzZV
+  entity_id: Qo6WUKrAupx18SY3970bG
+  visualization_settings:
+    column_settings: null
+  size_y: 8
+  created_at: '2025-11-04T13:16:46.485796Z'
+  row: 11
+- size_x: 12
+  dashboard_tab_id: null
+  series: []
+  inline_parameters: []
+  action_id: null
+  col: 12
+  parameter_mappings: []
+  serdes/meta:
+  - model: Dashboard
+    id: F46JZPYlugsyx--ipjFmE
+  - model: DashboardCard
+    id: tRl-h1jn_POo0tbgU648n
+  card_id: 72XXbf_1Cfpei2jaW_PyX
+  entity_id: tRl-h1jn_POo0tbgU648n
+  visualization_settings:
+    column_settings: null
+  size_y: 8
+  created_at: '2025-11-04T13:16:46.485796Z'
+  row: 11
+embedding_type: null
+initially_published_at: null
+tabs: []
+enable_embedding: false
+collection_id: ZlazJygK4XxnpkFviaIUy
+show_in_getting_started: false
+name: New awesome September 2025 metrics
+width: fixed
+caveats: null
+creator_id: katya@metabase.com
+made_public_by_id: null
+embedding_params: null
+serdes/meta:
+- model: Dashboard
+  id: F46JZPYlugsyx--ipjFmE
+  label: new_awesome_september_2025_metrics
+position: null
+archived_directly: false
+entity_id: F46JZPYlugsyx--ipjFmE
+parameters: []
+auto_apply_filters: true
+created_at: '2025-11-04T13:16:46.485796Z'
+public_uuid: null
+points_of_interest: null

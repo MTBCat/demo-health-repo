@@ -876,7 +876,7 @@ database_id: postgres
 enable_embedding: false
 collection_id: ZlazJygK4XxnpkFviaIUy
 query_type: query
-name: Transactions + Invoices + Doctors
+name: Transactions + Invoices + Doctors - Duplicate
 document_id: null
 type: question
 creator_id: katya@metabase.com
@@ -891,8 +891,8 @@ dataset_query:
     - healthcare_transactions_demo
     - transactions
     joins:
-    - fields: all
-      strategy: left-join
+    - strategy: left-join
+      fields: all
       alias: Invoices
       condition:
       - =
@@ -938,11 +938,11 @@ dataset_query:
 parameter_mappings: []
 serdes/meta:
 - model: Card
-  id: oP6r3XsZhHC5EhjN49ZLF
-  label: transactions___invoices___doctors
+  id: PZyS9TYqRNpyqM5IO95Cn
+  label: transactions___invoices___doctors___duplicate
 display: table
 archived_directly: false
-entity_id: oP6r3XsZhHC5EhjN49ZLF
+entity_id: PZyS9TYqRNpyqM5IO95Cn
 collection_preview: true
 visualization_settings:
   table.pivot_column: compliance_reason
@@ -950,6 +950,6 @@ visualization_settings:
   column_settings: null
 metabase_version: vLOCAL_DEV (06d1ba2ae111e66253209c01c244d6379acfc6dcb1911fa9ab6012cec9ce52e5)
 parameters: []
-dashboard_id: nobp8NCMOFhwwG6uh9h9c
-created_at: '2025-11-04T12:43:38.991701Z'
+dashboard_id: F46JZPYlugsyx--ipjFmE
+created_at: '2025-11-04T13:16:46.485796Z'
 public_uuid: null

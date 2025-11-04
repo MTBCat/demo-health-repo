@@ -1,0 +1,107 @@
+description: null
+archived: false
+collection_position: null
+source_card_id: null
+table_id:
+- postgres
+- healthcare_transactions_demo
+- doctors
+result_metadata:
+- database_type: varchar
+  semantic_type: type/Title
+  table_id:
+  - postgres
+  - healthcare_transactions_demo
+  - doctors
+  lib/deduplicated-name: title
+  lib/original-name: title
+  lib/breakout?: true
+  name: title
+  lib/source: source/table-defaults
+  lib/source-column-alias: title
+  lib/original-display-name: Title
+  source: breakout
+  field_ref:
+  - field
+  - - postgres
+    - healthcare_transactions_demo
+    - doctors
+    - title
+  - null
+  effective_type: type/Text
+  active: true
+  id:
+  - postgres
+  - healthcare_transactions_demo
+  - doctors
+  - title
+  lib/desired-column-alias: title
+  position: 3
+  visibility_type: normal
+  display_name: Title
+  base_type: type/Text
+- database_type: int8
+  semantic_type: type/Quantity
+  lib/deduplicated-name: count
+  lib/original-name: count
+  name: count
+  lib/source: source/aggregations
+  lib/source-column-alias: count
+  source: aggregation
+  field_ref:
+  - aggregation
+  - 0
+  effective_type: type/BigInteger
+  lib/desired-column-alias: count
+  display_name: Count
+  base_type: type/BigInteger
+embedding_type: null
+card_schema: 22
+database_id: postgres
+enable_embedding: false
+collection_id: N3C9SvgzCfgJ7uh2RzLhb
+query_type: query
+name: Doctors by Title
+document_id: null
+type: question
+creator_id: katya@metabase.com
+made_public_by_id: null
+embedding_params: null
+dataset_query:
+  database: postgres
+  type: query
+  query:
+    source-table:
+    - postgres
+    - healthcare_transactions_demo
+    - doctors
+    aggregation:
+    - - count
+    breakout:
+    - - field
+      - - postgres
+        - healthcare_transactions_demo
+        - doctors
+        - title
+      - base-type: type/Text
+parameter_mappings: []
+serdes/meta:
+- model: Card
+  id: VSiVkyyjiV2vbifo7DFlO
+  label: doctors_by_title
+display: bar
+archived_directly: false
+entity_id: VSiVkyyjiV2vbifo7DFlO
+collection_preview: true
+visualization_settings:
+  graph.x_axis.scale: ordinal
+  graph.dimensions:
+  - title
+  graph.metrics:
+  - count
+  column_settings: null
+metabase_version: vLOCAL_DEV (06d1ba2ae111e66253209c01c244d6379acfc6dcb1911fa9ab6012cec9ce52e5)
+parameters: []
+dashboard_id: nobp8NCMOFhwwG6uh9h9c
+created_at: '2025-11-04T12:48:52.908829Z'
+public_uuid: null
