@@ -71,6 +71,10 @@ dataset_query:
   database: Healthcare transactions demo
   type: query
   query:
+    source-table:
+    - Healthcare transactions demo
+    - healthcare_transactions_demo
+    - doctors
     aggregation:
     - - avg
       - - field
@@ -79,10 +83,6 @@ dataset_query:
           - doctors
           - hourly_rate_usd
         - base-type: type/Decimal
-    source-table:
-    - Healthcare transactions demo
-    - healthcare_transactions_demo
-    - doctors
     breakout:
     - - field
       - - Healthcare transactions demo

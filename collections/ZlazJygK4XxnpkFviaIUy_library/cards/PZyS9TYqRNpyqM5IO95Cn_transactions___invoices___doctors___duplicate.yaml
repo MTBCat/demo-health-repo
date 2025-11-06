@@ -886,6 +886,10 @@ dataset_query:
   database: Healthcare transactions demo
   type: query
   query:
+    source-table:
+    - Healthcare transactions demo
+    - healthcare_transactions_demo
+    - transactions
     joins:
     - strategy: left-join
       fields: all
@@ -931,10 +935,6 @@ dataset_query:
       - Healthcare transactions demo
       - healthcare_transactions_demo
       - doctors
-    source-table:
-    - Healthcare transactions demo
-    - healthcare_transactions_demo
-    - transactions
     filter:
     - and
     - - time-interval

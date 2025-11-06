@@ -71,10 +71,6 @@ dataset_query:
   database: Healthcare transactions demo
   type: query
   query:
-    source-table:
-    - Healthcare transactions demo
-    - healthcare_transactions_demo
-    - doctors
     breakout:
     - - field
       - - Healthcare transactions demo
@@ -82,6 +78,10 @@ dataset_query:
         - doctors
         - title
       - base-type: type/Text
+    source-table:
+    - Healthcare transactions demo
+    - healthcare_transactions_demo
+    - doctors
     aggregation:
     - - count
 parameter_mappings: []

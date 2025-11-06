@@ -71,12 +71,12 @@ dataset_query:
   database: Healthcare transactions demo
   type: query
   query:
+    aggregation:
+    - - count
     source-table:
     - Healthcare transactions demo
     - healthcare_transactions_demo
     - doctors
-    aggregation:
-    - - count
     breakout:
     - - field
       - - Healthcare transactions demo

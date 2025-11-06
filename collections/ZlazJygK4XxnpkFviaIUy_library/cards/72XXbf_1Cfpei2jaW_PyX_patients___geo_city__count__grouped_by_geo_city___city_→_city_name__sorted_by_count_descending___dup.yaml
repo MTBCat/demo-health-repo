@@ -75,6 +75,14 @@ dataset_query:
   database: Healthcare transactions demo
   type: query
   query:
+    breakout:
+    - - field
+      - - Healthcare transactions demo
+        - healthcare_transactions_demo
+        - geo_city
+        - city_name
+      - base-type: type/Text
+        join-alias: Geo City - City
     aggregation:
     - - count
     joins:
@@ -104,14 +112,6 @@ dataset_query:
     - Healthcare transactions demo
     - healthcare_transactions_demo
     - patients
-    breakout:
-    - - field
-      - - Healthcare transactions demo
-        - healthcare_transactions_demo
-        - geo_city
-        - city_name
-      - base-type: type/Text
-        join-alias: Geo City - City
     order-by:
     - - desc
       - - aggregation
