@@ -886,10 +886,6 @@ dataset_query:
   database: postgres
   type: query
   query:
-    source-table:
-    - postgres
-    - healthcare_transactions_demo
-    - transactions
     joins:
     - strategy: left-join
       fields: all
@@ -935,6 +931,30 @@ dataset_query:
       - postgres
       - healthcare_transactions_demo
       - doctors
+    source-table:
+    - postgres
+    - healthcare_transactions_demo
+    - transactions
+    filter:
+    - and
+    - - time-interval
+      - - field
+        - - postgres
+          - healthcare_transactions_demo
+          - transactions
+          - created_at
+        - base-type: type/DateTime
+      - -12
+      - month
+    - - in
+      - - field
+        - - postgres
+          - healthcare_transactions_demo
+          - transactions
+          - status
+        - base-type: type/Text
+      - pending
+      - under_review
 parameter_mappings: []
 serdes/meta:
 - model: Card
