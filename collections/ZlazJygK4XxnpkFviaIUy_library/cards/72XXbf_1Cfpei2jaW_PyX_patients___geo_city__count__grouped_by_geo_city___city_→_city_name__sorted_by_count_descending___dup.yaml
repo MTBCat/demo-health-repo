@@ -3,14 +3,14 @@ archived: false
 collection_position: null
 source_card_id: null
 table_id:
-- postgres
+- Healthcare transactions demo
 - healthcare_transactions_demo
 - patients
 result_metadata:
 - database_type: varchar
   semantic_type: null
   table_id:
-  - postgres
+  - Healthcare transactions demo
   - healthcare_transactions_demo
   - geo_city
   qp/implicit-field?: true
@@ -25,7 +25,7 @@ result_metadata:
   lib/original-join-alias: Geo City - City
   field_ref:
   - field
-  - - postgres
+  - - Healthcare transactions demo
     - healthcare_transactions_demo
     - geo_city
     - city_name
@@ -33,7 +33,7 @@ result_metadata:
   effective_type: type/Text
   active: true
   id:
-  - postgres
+  - Healthcare transactions demo
   - healthcare_transactions_demo
   - geo_city
   - city_name
@@ -61,7 +61,7 @@ result_metadata:
   base_type: type/BigInteger
 embedding_type: null
 card_schema: 22
-database_id: postgres
+database_id: Healthcare transactions demo
 enable_embedding: false
 collection_id: ZlazJygK4XxnpkFviaIUy
 query_type: query
@@ -72,7 +72,7 @@ creator_id: katya@metabase.com
 made_public_by_id: null
 embedding_params: null
 dataset_query:
-  database: postgres
+  database: Healthcare transactions demo
   type: query
   query:
     aggregation:
@@ -84,29 +84,29 @@ dataset_query:
       condition:
       - =
       - - field
-        - - postgres
+        - - Healthcare transactions demo
           - healthcare_transactions_demo
           - patients
           - city_id
         - base-type: type/Integer
       - - field
-        - - postgres
+        - - Healthcare transactions demo
           - healthcare_transactions_demo
           - geo_city
           - city_id
         - base-type: type/Integer
           join-alias: Geo City - City
       source-table:
-      - postgres
+      - Healthcare transactions demo
       - healthcare_transactions_demo
       - geo_city
     source-table:
-    - postgres
+    - Healthcare transactions demo
     - healthcare_transactions_demo
     - patients
     breakout:
     - - field
-      - - postgres
+      - - Healthcare transactions demo
         - healthcare_transactions_demo
         - geo_city
         - city_name

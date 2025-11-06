@@ -3,14 +3,14 @@ archived: false
 collection_position: null
 source_card_id: null
 table_id:
-- postgres
+- Healthcare transactions demo
 - healthcare_transactions_demo
 - transactions
 result_metadata:
 - database_type: serial
   semantic_type: type/PK
   table_id:
-  - postgres
+  - Healthcare transactions demo
   - healthcare_transactions_demo
   - transactions
   qp/implicit-field?: true
@@ -23,7 +23,7 @@ result_metadata:
   source: fields
   field_ref:
   - field
-  - - postgres
+  - - Healthcare transactions demo
     - healthcare_transactions_demo
     - transactions
     - tx_id
@@ -31,7 +31,7 @@ result_metadata:
   effective_type: type/Integer
   active: true
   id:
-  - postgres
+  - Healthcare transactions demo
   - healthcare_transactions_demo
   - transactions
   - tx_id
@@ -43,7 +43,7 @@ result_metadata:
 - database_type: int4
   semantic_type: type/FK
   table_id:
-  - postgres
+  - Healthcare transactions demo
   - healthcare_transactions_demo
   - transactions
   qp/implicit-field?: true
@@ -55,13 +55,13 @@ result_metadata:
   lib/original-display-name: Invoice ID
   source: fields
   fk_target_field_id:
-  - postgres
+  - Healthcare transactions demo
   - healthcare_transactions_demo
   - invoices
   - invoice_id
   field_ref:
   - field
-  - - postgres
+  - - Healthcare transactions demo
     - healthcare_transactions_demo
     - transactions
     - invoice_id
@@ -69,7 +69,7 @@ result_metadata:
   effective_type: type/Integer
   active: true
   id:
-  - postgres
+  - Healthcare transactions demo
   - healthcare_transactions_demo
   - transactions
   - invoice_id
@@ -81,7 +81,7 @@ result_metadata:
 - database_type: int4
   semantic_type: type/FK
   table_id:
-  - postgres
+  - Healthcare transactions demo
   - healthcare_transactions_demo
   - transactions
   qp/implicit-field?: true
@@ -93,13 +93,13 @@ result_metadata:
   lib/original-display-name: Patient ID
   source: fields
   fk_target_field_id:
-  - postgres
+  - Healthcare transactions demo
   - healthcare_transactions_demo
   - patients
   - patient_id
   field_ref:
   - field
-  - - postgres
+  - - Healthcare transactions demo
     - healthcare_transactions_demo
     - transactions
     - patient_id
@@ -107,7 +107,7 @@ result_metadata:
   effective_type: type/Integer
   active: true
   id:
-  - postgres
+  - Healthcare transactions demo
   - healthcare_transactions_demo
   - transactions
   - patient_id
@@ -119,7 +119,7 @@ result_metadata:
 - database_type: int4
   semantic_type: type/FK
   table_id:
-  - postgres
+  - Healthcare transactions demo
   - healthcare_transactions_demo
   - transactions
   qp/implicit-field?: true
@@ -131,13 +131,13 @@ result_metadata:
   lib/original-display-name: Doctor ID
   source: fields
   fk_target_field_id:
-  - postgres
+  - Healthcare transactions demo
   - healthcare_transactions_demo
   - doctors
   - doctor_id
   field_ref:
   - field
-  - - postgres
+  - - Healthcare transactions demo
     - healthcare_transactions_demo
     - transactions
     - doctor_id
@@ -145,7 +145,7 @@ result_metadata:
   effective_type: type/Integer
   active: true
   id:
-  - postgres
+  - Healthcare transactions demo
   - healthcare_transactions_demo
   - transactions
   - doctor_id
@@ -157,7 +157,7 @@ result_metadata:
 - database_type: int4
   semantic_type: type/FK
   table_id:
-  - postgres
+  - Healthcare transactions demo
   - healthcare_transactions_demo
   - transactions
   qp/implicit-field?: true
@@ -169,13 +169,13 @@ result_metadata:
   lib/original-display-name: Service ID
   source: fields
   fk_target_field_id:
-  - postgres
+  - Healthcare transactions demo
   - healthcare_transactions_demo
   - services
   - service_id
   field_ref:
   - field
-  - - postgres
+  - - Healthcare transactions demo
     - healthcare_transactions_demo
     - transactions
     - service_id
@@ -183,7 +183,7 @@ result_metadata:
   effective_type: type/Integer
   active: true
   id:
-  - postgres
+  - Healthcare transactions demo
   - healthcare_transactions_demo
   - transactions
   - service_id
@@ -195,7 +195,7 @@ result_metadata:
 - database_type: varchar
   semantic_type: type/Category
   table_id:
-  - postgres
+  - Healthcare transactions demo
   - healthcare_transactions_demo
   - transactions
   qp/implicit-field?: true
@@ -208,7 +208,7 @@ result_metadata:
   source: fields
   field_ref:
   - field
-  - - postgres
+  - - Healthcare transactions demo
     - healthcare_transactions_demo
     - transactions
     - status
@@ -216,7 +216,7 @@ result_metadata:
   effective_type: type/Text
   active: true
   id:
-  - postgres
+  - Healthcare transactions demo
   - healthcare_transactions_demo
   - transactions
   - status
@@ -228,7 +228,7 @@ result_metadata:
 - database_type: bool
   semantic_type: null
   table_id:
-  - postgres
+  - Healthcare transactions demo
   - healthcare_transactions_demo
   - transactions
   qp/implicit-field?: true
@@ -241,7 +241,7 @@ result_metadata:
   source: fields
   field_ref:
   - field
-  - - postgres
+  - - Healthcare transactions demo
     - healthcare_transactions_demo
     - transactions
     - compliance_flag
@@ -249,7 +249,7 @@ result_metadata:
   effective_type: type/Boolean
   active: true
   id:
-  - postgres
+  - Healthcare transactions demo
   - healthcare_transactions_demo
   - transactions
   - compliance_flag
@@ -261,7 +261,7 @@ result_metadata:
 - database_type: text
   semantic_type: type/Category
   table_id:
-  - postgres
+  - Healthcare transactions demo
   - healthcare_transactions_demo
   - transactions
   qp/implicit-field?: true
@@ -274,7 +274,7 @@ result_metadata:
   source: fields
   field_ref:
   - field
-  - - postgres
+  - - Healthcare transactions demo
     - healthcare_transactions_demo
     - transactions
     - compliance_reason
@@ -282,7 +282,7 @@ result_metadata:
   effective_type: type/Text
   active: true
   id:
-  - postgres
+  - Healthcare transactions demo
   - healthcare_transactions_demo
   - transactions
   - compliance_reason
@@ -294,7 +294,7 @@ result_metadata:
 - database_type: timestamp
   semantic_type: type/CreationTimestamp
   table_id:
-  - postgres
+  - Healthcare transactions demo
   - healthcare_transactions_demo
   - transactions
   qp/implicit-field?: true
@@ -307,7 +307,7 @@ result_metadata:
   source: fields
   field_ref:
   - field
-  - - postgres
+  - - Healthcare transactions demo
     - healthcare_transactions_demo
     - transactions
     - created_at
@@ -315,7 +315,7 @@ result_metadata:
   effective_type: type/DateTime
   active: true
   id:
-  - postgres
+  - Healthcare transactions demo
   - healthcare_transactions_demo
   - transactions
   - created_at
@@ -327,7 +327,7 @@ result_metadata:
 - database_type: serial
   semantic_type: type/PK
   table_id:
-  - postgres
+  - Healthcare transactions demo
   - healthcare_transactions_demo
   - invoices
   qp/implicit-field?: true
@@ -342,7 +342,7 @@ result_metadata:
   lib/original-join-alias: Invoices
   field_ref:
   - field
-  - - postgres
+  - - Healthcare transactions demo
     - healthcare_transactions_demo
     - invoices
     - invoice_id
@@ -350,7 +350,7 @@ result_metadata:
   effective_type: type/Integer
   active: true
   id:
-  - postgres
+  - Healthcare transactions demo
   - healthcare_transactions_demo
   - invoices
   - invoice_id
@@ -366,7 +366,7 @@ result_metadata:
 - database_type: varchar
   semantic_type: null
   table_id:
-  - postgres
+  - Healthcare transactions demo
   - healthcare_transactions_demo
   - invoices
   qp/implicit-field?: true
@@ -381,7 +381,7 @@ result_metadata:
   lib/original-join-alias: Invoices
   field_ref:
   - field
-  - - postgres
+  - - Healthcare transactions demo
     - healthcare_transactions_demo
     - invoices
     - invoice_number
@@ -389,7 +389,7 @@ result_metadata:
   effective_type: type/Text
   active: true
   id:
-  - postgres
+  - Healthcare transactions demo
   - healthcare_transactions_demo
   - invoices
   - invoice_number
@@ -405,7 +405,7 @@ result_metadata:
 - database_type: date
   semantic_type: null
   table_id:
-  - postgres
+  - Healthcare transactions demo
   - healthcare_transactions_demo
   - invoices
   qp/implicit-field?: true
@@ -420,7 +420,7 @@ result_metadata:
   lib/original-join-alias: Invoices
   field_ref:
   - field
-  - - postgres
+  - - Healthcare transactions demo
     - healthcare_transactions_demo
     - invoices
     - invoice_date
@@ -428,7 +428,7 @@ result_metadata:
   effective_type: type/Date
   active: true
   id:
-  - postgres
+  - Healthcare transactions demo
   - healthcare_transactions_demo
   - invoices
   - invoice_date
@@ -444,7 +444,7 @@ result_metadata:
 - database_type: numeric
   semantic_type: null
   table_id:
-  - postgres
+  - Healthcare transactions demo
   - healthcare_transactions_demo
   - invoices
   qp/implicit-field?: true
@@ -459,7 +459,7 @@ result_metadata:
   lib/original-join-alias: Invoices
   field_ref:
   - field
-  - - postgres
+  - - Healthcare transactions demo
     - healthcare_transactions_demo
     - invoices
     - invoice_amount
@@ -467,7 +467,7 @@ result_metadata:
   effective_type: type/Decimal
   active: true
   id:
-  - postgres
+  - Healthcare transactions demo
   - healthcare_transactions_demo
   - invoices
   - invoice_amount
@@ -483,7 +483,7 @@ result_metadata:
 - database_type: numeric
   semantic_type: null
   table_id:
-  - postgres
+  - Healthcare transactions demo
   - healthcare_transactions_demo
   - invoices
   qp/implicit-field?: true
@@ -498,7 +498,7 @@ result_metadata:
   lib/original-join-alias: Invoices
   field_ref:
   - field
-  - - postgres
+  - - Healthcare transactions demo
     - healthcare_transactions_demo
     - invoices
     - total_hours
@@ -506,7 +506,7 @@ result_metadata:
   effective_type: type/Decimal
   active: true
   id:
-  - postgres
+  - Healthcare transactions demo
   - healthcare_transactions_demo
   - invoices
   - total_hours
@@ -522,7 +522,7 @@ result_metadata:
 - database_type: numeric
   semantic_type: type/Discount
   table_id:
-  - postgres
+  - Healthcare transactions demo
   - healthcare_transactions_demo
   - invoices
   qp/implicit-field?: true
@@ -537,7 +537,7 @@ result_metadata:
   lib/original-join-alias: Invoices
   field_ref:
   - field
-  - - postgres
+  - - Healthcare transactions demo
     - healthcare_transactions_demo
     - invoices
     - discount_usd
@@ -545,7 +545,7 @@ result_metadata:
   effective_type: type/Decimal
   active: true
   id:
-  - postgres
+  - Healthcare transactions demo
   - healthcare_transactions_demo
   - invoices
   - discount_usd
@@ -561,7 +561,7 @@ result_metadata:
 - database_type: serial
   semantic_type: type/PK
   table_id:
-  - postgres
+  - Healthcare transactions demo
   - healthcare_transactions_demo
   - doctors
   qp/implicit-field?: true
@@ -576,7 +576,7 @@ result_metadata:
   lib/original-join-alias: Doctors
   field_ref:
   - field
-  - - postgres
+  - - Healthcare transactions demo
     - healthcare_transactions_demo
     - doctors
     - doctor_id
@@ -584,7 +584,7 @@ result_metadata:
   effective_type: type/Integer
   active: true
   id:
-  - postgres
+  - Healthcare transactions demo
   - healthcare_transactions_demo
   - doctors
   - doctor_id
@@ -600,7 +600,7 @@ result_metadata:
 - database_type: varchar
   semantic_type: type/Name
   table_id:
-  - postgres
+  - Healthcare transactions demo
   - healthcare_transactions_demo
   - doctors
   qp/implicit-field?: true
@@ -615,7 +615,7 @@ result_metadata:
   lib/original-join-alias: Doctors
   field_ref:
   - field
-  - - postgres
+  - - Healthcare transactions demo
     - healthcare_transactions_demo
     - doctors
     - first_name
@@ -623,7 +623,7 @@ result_metadata:
   effective_type: type/Text
   active: true
   id:
-  - postgres
+  - Healthcare transactions demo
   - healthcare_transactions_demo
   - doctors
   - first_name
@@ -639,7 +639,7 @@ result_metadata:
 - database_type: varchar
   semantic_type: type/Name
   table_id:
-  - postgres
+  - Healthcare transactions demo
   - healthcare_transactions_demo
   - doctors
   qp/implicit-field?: true
@@ -654,7 +654,7 @@ result_metadata:
   lib/original-join-alias: Doctors
   field_ref:
   - field
-  - - postgres
+  - - Healthcare transactions demo
     - healthcare_transactions_demo
     - doctors
     - last_name
@@ -662,7 +662,7 @@ result_metadata:
   effective_type: type/Text
   active: true
   id:
-  - postgres
+  - Healthcare transactions demo
   - healthcare_transactions_demo
   - doctors
   - last_name
@@ -678,7 +678,7 @@ result_metadata:
 - database_type: varchar
   semantic_type: type/Title
   table_id:
-  - postgres
+  - Healthcare transactions demo
   - healthcare_transactions_demo
   - doctors
   qp/implicit-field?: true
@@ -693,7 +693,7 @@ result_metadata:
   lib/original-join-alias: Doctors
   field_ref:
   - field
-  - - postgres
+  - - Healthcare transactions demo
     - healthcare_transactions_demo
     - doctors
     - title
@@ -701,7 +701,7 @@ result_metadata:
   effective_type: type/Text
   active: true
   id:
-  - postgres
+  - Healthcare transactions demo
   - healthcare_transactions_demo
   - doctors
   - title
@@ -717,7 +717,7 @@ result_metadata:
 - database_type: varchar
   semantic_type: type/Email
   table_id:
-  - postgres
+  - Healthcare transactions demo
   - healthcare_transactions_demo
   - doctors
   qp/implicit-field?: true
@@ -732,7 +732,7 @@ result_metadata:
   lib/original-join-alias: Doctors
   field_ref:
   - field
-  - - postgres
+  - - Healthcare transactions demo
     - healthcare_transactions_demo
     - doctors
     - email
@@ -740,7 +740,7 @@ result_metadata:
   effective_type: type/Text
   active: true
   id:
-  - postgres
+  - Healthcare transactions demo
   - healthcare_transactions_demo
   - doctors
   - email
@@ -756,7 +756,7 @@ result_metadata:
 - database_type: varchar
   semantic_type: null
   table_id:
-  - postgres
+  - Healthcare transactions demo
   - healthcare_transactions_demo
   - doctors
   qp/implicit-field?: true
@@ -771,7 +771,7 @@ result_metadata:
   lib/original-join-alias: Doctors
   field_ref:
   - field
-  - - postgres
+  - - Healthcare transactions demo
     - healthcare_transactions_demo
     - doctors
     - phone
@@ -779,7 +779,7 @@ result_metadata:
   effective_type: type/Text
   active: true
   id:
-  - postgres
+  - Healthcare transactions demo
   - healthcare_transactions_demo
   - doctors
   - phone
@@ -795,7 +795,7 @@ result_metadata:
 - database_type: numeric
   semantic_type: null
   table_id:
-  - postgres
+  - Healthcare transactions demo
   - healthcare_transactions_demo
   - doctors
   qp/implicit-field?: true
@@ -810,7 +810,7 @@ result_metadata:
   lib/original-join-alias: Doctors
   field_ref:
   - field
-  - - postgres
+  - - Healthcare transactions demo
     - healthcare_transactions_demo
     - doctors
     - hourly_rate_usd
@@ -818,7 +818,7 @@ result_metadata:
   effective_type: type/Decimal
   active: true
   id:
-  - postgres
+  - Healthcare transactions demo
   - healthcare_transactions_demo
   - doctors
   - hourly_rate_usd
@@ -834,7 +834,7 @@ result_metadata:
 - database_type: timestamp
   semantic_type: type/CreationTimestamp
   table_id:
-  - postgres
+  - Healthcare transactions demo
   - healthcare_transactions_demo
   - doctors
   qp/implicit-field?: true
@@ -849,7 +849,7 @@ result_metadata:
   lib/original-join-alias: Doctors
   field_ref:
   - field
-  - - postgres
+  - - Healthcare transactions demo
     - healthcare_transactions_demo
     - doctors
     - created_at
@@ -857,7 +857,7 @@ result_metadata:
   effective_type: type/DateTime
   active: true
   id:
-  - postgres
+  - Healthcare transactions demo
   - healthcare_transactions_demo
   - doctors
   - created_at
@@ -872,7 +872,7 @@ result_metadata:
   metabase.lib.join/join-alias: Doctors
 embedding_type: null
 card_schema: 22
-database_id: postgres
+database_id: Healthcare transactions demo
 enable_embedding: false
 collection_id: N3C9SvgzCfgJ7uh2RzLhb
 query_type: query
@@ -883,11 +883,11 @@ creator_id: katya@metabase.com
 made_public_by_id: null
 embedding_params: null
 dataset_query:
-  database: postgres
+  database: Healthcare transactions demo
   type: query
   query:
     source-table:
-    - postgres
+    - Healthcare transactions demo
     - healthcare_transactions_demo
     - transactions
     joins:
@@ -897,20 +897,20 @@ dataset_query:
       condition:
       - =
       - - field
-        - - postgres
+        - - Healthcare transactions demo
           - healthcare_transactions_demo
           - transactions
           - invoice_id
         - base-type: type/Integer
       - - field
-        - - postgres
+        - - Healthcare transactions demo
           - healthcare_transactions_demo
           - invoices
           - invoice_id
         - base-type: type/Integer
           join-alias: Invoices
       source-table:
-      - postgres
+      - Healthcare transactions demo
       - healthcare_transactions_demo
       - invoices
     - fields: all
@@ -919,20 +919,20 @@ dataset_query:
       condition:
       - =
       - - field
-        - - postgres
+        - - Healthcare transactions demo
           - healthcare_transactions_demo
           - transactions
           - doctor_id
         - base-type: type/Integer
       - - field
-        - - postgres
+        - - Healthcare transactions demo
           - healthcare_transactions_demo
           - doctors
           - doctor_id
         - base-type: type/Integer
           join-alias: Doctors
       source-table:
-      - postgres
+      - Healthcare transactions demo
       - healthcare_transactions_demo
       - doctors
 parameter_mappings: []

@@ -502,7 +502,7 @@ result_metadata:
   base_type: type/Text
 embedding_type: null
 card_schema: 22
-database_id: postgres
+database_id: Healthcare transactions demo
 enable_embedding: false
 collection_id: N3C9SvgzCfgJ7uh2RzLhb
 query_type: native
@@ -513,7 +513,7 @@ creator_id: katya@metabase.com
 made_public_by_id: null
 embedding_params: null
 dataset_query:
-  database: postgres
+  database: Healthcare transactions demo
   type: native
   native:
     query: |

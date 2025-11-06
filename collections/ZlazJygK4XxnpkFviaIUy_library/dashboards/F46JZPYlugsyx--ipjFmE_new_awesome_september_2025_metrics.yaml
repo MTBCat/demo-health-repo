@@ -78,6 +78,25 @@ dashcards:
   size_y: 8
   created_at: '2025-11-06T10:16:41.633849Z'
   row: 19
+- size_x: 12
+  dashboard_tab_id: null
+  series: []
+  inline_parameters: []
+  action_id: null
+  col: 12
+  parameter_mappings: []
+  serdes/meta:
+  - model: Dashboard
+    id: F46JZPYlugsyx--ipjFmE
+  - model: DashboardCard
+    id: fv2nM-FFGl4WbAQvNlUb6
+  card_id: LA-ZxyqvvaeMVCJ9Qy6zx
+  entity_id: fv2nM-FFGl4WbAQvNlUb6
+  visualization_settings:
+    column_settings: null
+  size_y: 9
+  created_at: '2025-11-06T12:26:31.077375Z'
+  row: 19
 embedding_type: null
 initially_published_at: null
 tabs: []

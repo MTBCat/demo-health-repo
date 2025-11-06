@@ -3,14 +3,14 @@ archived: false
 collection_position: null
 source_card_id: null
 table_id:
-- postgres
+- Healthcare transactions demo
 - healthcare_transactions_demo
 - doctors
 result_metadata:
 - database_type: varchar
   semantic_type: type/Title
   table_id:
-  - postgres
+  - Healthcare transactions demo
   - healthcare_transactions_demo
   - doctors
   lib/deduplicated-name: title
@@ -23,7 +23,7 @@ result_metadata:
   source: breakout
   field_ref:
   - field
-  - - postgres
+  - - Healthcare transactions demo
     - healthcare_transactions_demo
     - doctors
     - title
@@ -31,7 +31,7 @@ result_metadata:
   effective_type: type/Text
   active: true
   id:
-  - postgres
+  - Healthcare transactions demo
   - healthcare_transactions_demo
   - doctors
   - title
@@ -57,7 +57,7 @@ result_metadata:
   base_type: type/BigInteger
 embedding_type: null
 card_schema: 22
-database_id: postgres
+database_id: Healthcare transactions demo
 enable_embedding: false
 collection_id: N3C9SvgzCfgJ7uh2RzLhb
 query_type: query
@@ -68,18 +68,18 @@ creator_id: katya@metabase.com
 made_public_by_id: null
 embedding_params: null
 dataset_query:
-  database: postgres
+  database: Healthcare transactions demo
   type: query
   query:
     source-table:
-    - postgres
+    - Healthcare transactions demo
     - healthcare_transactions_demo
     - doctors
     aggregation:
     - - count
     breakout:
     - - field
-      - - postgres
+      - - Healthcare transactions demo
         - healthcare_transactions_demo
         - doctors
         - title
