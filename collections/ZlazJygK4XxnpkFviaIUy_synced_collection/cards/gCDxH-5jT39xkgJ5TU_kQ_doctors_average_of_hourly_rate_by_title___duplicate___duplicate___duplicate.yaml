@@ -2,6 +2,7 @@ description: null
 archived: false
 collection_position: null
 source_card_id: null
+published_table_id: null
 table_id:
 - Healthcare transactions demo
 - healthcare_transactions_demo
@@ -40,28 +41,28 @@ result_metadata:
   visibility_type: normal
   display_name: Title
   base_type: type/Text
-- database_type: int8
-  semantic_type: type/Quantity
-  lib/deduplicated-name: count
-  lib/original-name: count
-  name: count
+- database_type: numeric
+  semantic_type: null
+  lib/deduplicated-name: avg
+  lib/original-name: avg
+  name: avg
   lib/source: source/aggregations
-  lib/source-column-alias: count
+  lib/source-column-alias: avg
   source: aggregation
   field_ref:
   - aggregation
   - 0
-  effective_type: type/BigInteger
-  lib/desired-column-alias: count
-  display_name: Count
-  base_type: type/BigInteger
+  effective_type: type/Decimal
+  lib/desired-column-alias: avg
+  display_name: Average of Hourly Rate Usd
+  base_type: type/Decimal
 embedding_type: null
 card_schema: 22
 database_id: Healthcare transactions demo
 enable_embedding: false
 collection_id: ZlazJygK4XxnpkFviaIUy
 query_type: query
-name: Doctors, Count, Grouped by Title - Duplicate - Duplicate
+name: Doctors Average of Hourly Rate by Title - Duplicate - Duplicate - Duplicate
 document_id: null
 type: question
 creator_id: katya+demodev@metabase.com
@@ -75,6 +76,14 @@ dataset_query:
     - Healthcare transactions demo
     - healthcare_transactions_demo
     - doctors
+    aggregation:
+    - - avg
+      - - field
+        - - Healthcare transactions demo
+          - healthcare_transactions_demo
+          - doctors
+          - hourly_rate_usd
+        - base-type: type/Decimal
     breakout:
     - - field
       - - Healthcare transactions demo
@@ -82,21 +91,24 @@ dataset_query:
         - doctors
         - title
       - base-type: type/Text
-    aggregation:
-    - - count
 parameter_mappings: []
 serdes/meta:
 - model: Card
-  id: qX3aawjDhH7WQCOtIDmab
-  label: doctors__count__grouped_by_title___duplicate___duplicate
-display: pie
+  id: gCDxH-5jT39xkgJ5TU_kQ
+  label: doctors_average_of_hourly_rate_by_title___duplicate___duplicate___duplicate
+display: bar
 archived_directly: false
-entity_id: qX3aawjDhH7WQCOtIDmab
+entity_id: gCDxH-5jT39xkgJ5TU_kQ
 collection_preview: true
 visualization_settings:
+  graph.x_axis.scale: ordinal
+  graph.dimensions:
+  - title
+  graph.metrics:
+  - avg
   column_settings: null
 metabase_version: vUNKNOWN (b9df4f2)
 parameters: []
-dashboard_id: nGR_P3sHZ2wSuoTYnBDRS
-created_at: '2025-11-06T13:30:00.44602Z'
+dashboard_id: LHma9huLeUmHpR8lDu55o
+created_at: '2025-11-06T12:38:00.186197Z'
 public_uuid: null

@@ -2,6 +2,7 @@ description: null
 archived: false
 collection_position: null
 source_card_id: null
+published_table_id: null
 table_id:
 - Healthcare transactions demo
 - healthcare_transactions_demo
@@ -874,9 +875,9 @@ embedding_type: null
 card_schema: 22
 database_id: Healthcare transactions demo
 enable_embedding: false
-collection_id: ZlazJygK4XxnpkFviaIUy
+collection_id: N3C9SvgzCfgJ7uh2RzLhb
 query_type: query
-name: Transactions + Invoices + Doctors - Duplicate
+name: Transactions + Invoices + Doctors
 document_id: null
 type: question
 creator_id: katya@metabase.com
@@ -891,8 +892,8 @@ dataset_query:
     - healthcare_transactions_demo
     - transactions
     joins:
-    - strategy: left-join
-      fields: all
+    - fields: all
+      strategy: left-join
       alias: Invoices
       condition:
       - =
@@ -935,34 +936,14 @@ dataset_query:
       - Healthcare transactions demo
       - healthcare_transactions_demo
       - doctors
-    filter:
-    - and
-    - - time-interval
-      - - field
-        - - Healthcare transactions demo
-          - healthcare_transactions_demo
-          - transactions
-          - created_at
-        - base-type: type/DateTime
-      - -12
-      - month
-    - - in
-      - - field
-        - - Healthcare transactions demo
-          - healthcare_transactions_demo
-          - transactions
-          - status
-        - base-type: type/Text
-      - pending
-      - under_review
 parameter_mappings: []
 serdes/meta:
 - model: Card
-  id: PZyS9TYqRNpyqM5IO95Cn
-  label: transactions___invoices___doctors___duplicate
+  id: oP6r3XsZhHC5EhjN49ZLF
+  label: transactions___invoices___doctors
 display: table
 archived_directly: false
-entity_id: PZyS9TYqRNpyqM5IO95Cn
+entity_id: oP6r3XsZhHC5EhjN49ZLF
 collection_preview: true
 visualization_settings:
   table.pivot_column: compliance_reason
@@ -970,6 +951,6 @@ visualization_settings:
   column_settings: null
 metabase_version: vLOCAL_DEV (06d1ba2ae111e66253209c01c244d6379acfc6dcb1911fa9ab6012cec9ce52e5)
 parameters: []
-dashboard_id: F46JZPYlugsyx--ipjFmE
-created_at: '2025-11-04T13:16:46.485796Z'
+dashboard_id: nobp8NCMOFhwwG6uh9h9c
+created_at: '2025-11-04T12:43:38.991701Z'
 public_uuid: null

@@ -2,6 +2,7 @@ description: null
 archived: false
 collection_position: null
 source_card_id: null
+published_table_id: null
 table_id:
 - Healthcare transactions demo
 - healthcare_transactions_demo
@@ -40,45 +41,37 @@ result_metadata:
   visibility_type: normal
   display_name: Title
   base_type: type/Text
-- database_type: numeric
-  semantic_type: null
-  lib/deduplicated-name: avg
-  lib/original-name: avg
-  name: avg
+- database_type: int8
+  semantic_type: type/Quantity
+  lib/deduplicated-name: count
+  lib/original-name: count
+  name: count
   lib/source: source/aggregations
-  lib/source-column-alias: avg
+  lib/source-column-alias: count
   source: aggregation
   field_ref:
   - aggregation
   - 0
-  effective_type: type/Decimal
-  lib/desired-column-alias: avg
-  display_name: Average of Hourly Rate Usd
-  base_type: type/Decimal
+  effective_type: type/BigInteger
+  lib/desired-column-alias: count
+  display_name: Count
+  base_type: type/BigInteger
 embedding_type: null
 card_schema: 22
 database_id: Healthcare transactions demo
 enable_embedding: false
 collection_id: ZlazJygK4XxnpkFviaIUy
 query_type: query
-name: Doctors Average of Hourly Rate by Title - Duplicate - Duplicate - Duplicate
+name: Doctors, Count, Grouped by Title
 document_id: null
 type: question
-creator_id: katya+demodev@metabase.com
+creator_id: katya@metabase.com
 made_public_by_id: null
 embedding_params: null
 dataset_query:
   database: Healthcare transactions demo
   type: query
   query:
-    aggregation:
-    - - avg
-      - - field
-        - - Healthcare transactions demo
-          - healthcare_transactions_demo
-          - doctors
-          - hourly_rate_usd
-        - base-type: type/Decimal
     source-table:
     - Healthcare transactions demo
     - healthcare_transactions_demo
@@ -90,24 +83,21 @@ dataset_query:
         - doctors
         - title
       - base-type: type/Text
+    aggregation:
+    - - count
 parameter_mappings: []
 serdes/meta:
 - model: Card
-  id: qlpeOke7AaAbQvAvFk_PS
-  label: doctors_average_of_hourly_rate_by_title___duplicate___duplicate___duplicate
-display: bar
+  id: Vx76Zz3F_eZepmMFLGQdv
+  label: doctors__count__grouped_by_title
+display: pie
 archived_directly: false
-entity_id: qlpeOke7AaAbQvAvFk_PS
+entity_id: Vx76Zz3F_eZepmMFLGQdv
 collection_preview: true
 visualization_settings:
-  graph.x_axis.scale: ordinal
-  graph.dimensions:
-  - title
-  graph.metrics:
-  - avg
   column_settings: null
-metabase_version: vUNKNOWN (b9df4f2)
+metabase_version: vLOCAL_DEV (06d1ba2ae111e66253209c01c244d6379acfc6dcb1911fa9ab6012cec9ce52e5)
 parameters: []
-dashboard_id: nGR_P3sHZ2wSuoTYnBDRS
-created_at: '2025-11-06T13:30:00.44602Z'
+dashboard_id: F46JZPYlugsyx--ipjFmE
+created_at: '2025-11-06T10:16:41.614196Z'
 public_uuid: null

@@ -2,6 +2,7 @@ description: null
 archived: false
 collection_position: null
 source_card_id: null
+published_table_id: null
 table_id:
 - Healthcare transactions demo
 - healthcare_transactions_demo
@@ -75,6 +76,8 @@ dataset_query:
   database: Healthcare transactions demo
   type: query
   query:
+    aggregation:
+    - - count
     joins:
     - fields: all
       strategy: left-join
@@ -110,8 +113,6 @@ dataset_query:
         - city_name
       - base-type: type/Text
         join-alias: Geo City - City
-    aggregation:
-    - - count
     order-by:
     - - desc
       - - aggregation
@@ -120,11 +121,11 @@ dataset_query:
 parameter_mappings: []
 serdes/meta:
 - model: Card
-  id: bxAx4XrJ8N2WOwTirZd8p
+  id: uRGOf2ddjssVo-9GDqQlT
   label: patients___geo_city__count__grouped_by_geo_city___city_→_city_name__sorted_by_count_descending___duplicate___duplicate___duplicate
 display: bar
 archived_directly: false
-entity_id: bxAx4XrJ8N2WOwTirZd8p
+entity_id: uRGOf2ddjssVo-9GDqQlT
 collection_preview: true
 visualization_settings:
   graph.x_axis.scale: ordinal
@@ -135,6 +136,6 @@ visualization_settings:
   column_settings: null
 metabase_version: vUNKNOWN (b9df4f2)
 parameters: []
-dashboard_id: LHma9huLeUmHpR8lDu55o
-created_at: '2025-11-06T12:38:00.186197Z'
+dashboard_id: nGR_P3sHZ2wSuoTYnBDRS
+created_at: '2025-11-06T13:30:00.44602Z'
 public_uuid: null

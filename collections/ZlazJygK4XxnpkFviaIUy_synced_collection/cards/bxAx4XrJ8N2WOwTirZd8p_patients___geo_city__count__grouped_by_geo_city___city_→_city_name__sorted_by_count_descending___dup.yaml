@@ -2,6 +2,7 @@ description: null
 archived: false
 collection_position: null
 source_card_id: null
+published_table_id: null
 table_id:
 - Healthcare transactions demo
 - healthcare_transactions_demo
@@ -65,24 +66,16 @@ database_id: Healthcare transactions demo
 enable_embedding: false
 collection_id: ZlazJygK4XxnpkFviaIUy
 query_type: query
-name: Patients + Geo City, Count, Grouped by Geo City - City → City Name, Sorted by Count descending - Duplicate
+name: Patients + Geo City, Count, Grouped by Geo City - City → City Name, Sorted by Count descending - Duplicate - Duplicate - Duplicate
 document_id: null
 type: question
-creator_id: katya@metabase.com
+creator_id: katya+demodev@metabase.com
 made_public_by_id: null
 embedding_params: null
 dataset_query:
   database: Healthcare transactions demo
   type: query
   query:
-    breakout:
-    - - field
-      - - Healthcare transactions demo
-        - healthcare_transactions_demo
-        - geo_city
-        - city_name
-      - base-type: type/Text
-        join-alias: Geo City - City
     aggregation:
     - - count
     joins:
@@ -112,6 +105,14 @@ dataset_query:
     - Healthcare transactions demo
     - healthcare_transactions_demo
     - patients
+    breakout:
+    - - field
+      - - Healthcare transactions demo
+        - healthcare_transactions_demo
+        - geo_city
+        - city_name
+      - base-type: type/Text
+        join-alias: Geo City - City
     order-by:
     - - desc
       - - aggregation
@@ -120,11 +121,11 @@ dataset_query:
 parameter_mappings: []
 serdes/meta:
 - model: Card
-  id: 72XXbf_1Cfpei2jaW_PyX
-  label: patients___geo_city__count__grouped_by_geo_city___city_→_city_name__sorted_by_count_descending___duplicate
+  id: bxAx4XrJ8N2WOwTirZd8p
+  label: patients___geo_city__count__grouped_by_geo_city___city_→_city_name__sorted_by_count_descending___duplicate___duplicate___duplicate
 display: bar
 archived_directly: false
-entity_id: 72XXbf_1Cfpei2jaW_PyX
+entity_id: bxAx4XrJ8N2WOwTirZd8p
 collection_preview: true
 visualization_settings:
   graph.x_axis.scale: ordinal
@@ -133,8 +134,8 @@ visualization_settings:
   graph.metrics:
   - count
   column_settings: null
-metabase_version: vLOCAL_DEV (06d1ba2ae111e66253209c01c244d6379acfc6dcb1911fa9ab6012cec9ce52e5)
+metabase_version: vUNKNOWN (b9df4f2)
 parameters: []
-dashboard_id: F46JZPYlugsyx--ipjFmE
-created_at: '2025-11-04T13:16:46.485796Z'
+dashboard_id: LHma9huLeUmHpR8lDu55o
+created_at: '2025-11-06T12:38:00.186197Z'
 public_uuid: null

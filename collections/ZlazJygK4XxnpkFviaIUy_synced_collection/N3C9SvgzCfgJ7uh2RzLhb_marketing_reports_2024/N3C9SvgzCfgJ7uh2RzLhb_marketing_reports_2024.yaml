@@ -4,8 +4,9 @@ archived: false
 slug: marketing_reports_2024
 archive_operation_id: null
 name: Marketing reports 2024
+is_remote_synced: true
 personal_owner_id: null
-type: remote-synced
+type: null
 is_sample: false
 parent_id: ZlazJygK4XxnpkFviaIUy
 serdes/meta:

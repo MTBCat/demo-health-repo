@@ -2,6 +2,7 @@ description: null
 archived: false
 collection_position: null
 source_card_id: null
+published_table_id: null
 table_id:
 - Healthcare transactions demo
 - healthcare_transactions_demo
@@ -61,10 +62,10 @@ database_id: Healthcare transactions demo
 enable_embedding: false
 collection_id: ZlazJygK4XxnpkFviaIUy
 query_type: query
-name: Doctors Average of Hourly Rate by Title - Duplicate - Duplicate - Duplicate
+name: Doctors Average of Hourly Rate by Title - Duplicate
 document_id: null
 type: question
-creator_id: katya+demodev@metabase.com
+creator_id: katya@metabase.com
 made_public_by_id: null
 embedding_params: null
 dataset_query:
@@ -93,11 +94,11 @@ dataset_query:
 parameter_mappings: []
 serdes/meta:
 - model: Card
-  id: gCDxH-5jT39xkgJ5TU_kQ
-  label: doctors_average_of_hourly_rate_by_title___duplicate___duplicate___duplicate
+  id: TAFglSPT0Eo_3gXcpnzZV
+  label: doctors_average_of_hourly_rate_by_title___duplicate
 display: bar
 archived_directly: false
-entity_id: gCDxH-5jT39xkgJ5TU_kQ
+entity_id: TAFglSPT0Eo_3gXcpnzZV
 collection_preview: true
 visualization_settings:
   graph.x_axis.scale: ordinal
@@ -106,8 +107,8 @@ visualization_settings:
   graph.metrics:
   - avg
   column_settings: null
-metabase_version: vUNKNOWN (b9df4f2)
+metabase_version: vLOCAL_DEV (06d1ba2ae111e66253209c01c244d6379acfc6dcb1911fa9ab6012cec9ce52e5)
 parameters: []
-dashboard_id: LHma9huLeUmHpR8lDu55o
-created_at: '2025-11-06T12:38:00.186197Z'
+dashboard_id: F46JZPYlugsyx--ipjFmE
+created_at: '2025-11-04T13:16:46.485796Z'
 public_uuid: null

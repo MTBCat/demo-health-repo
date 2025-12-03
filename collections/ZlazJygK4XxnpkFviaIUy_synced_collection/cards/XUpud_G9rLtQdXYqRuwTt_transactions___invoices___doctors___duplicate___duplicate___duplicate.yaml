@@ -2,6 +2,7 @@ description: null
 archived: false
 collection_position: null
 source_card_id: null
+published_table_id: null
 table_id:
 - Healthcare transactions demo
 - healthcare_transactions_demo
@@ -874,12 +875,12 @@ embedding_type: null
 card_schema: 22
 database_id: Healthcare transactions demo
 enable_embedding: false
-collection_id: N3C9SvgzCfgJ7uh2RzLhb
+collection_id: ZlazJygK4XxnpkFviaIUy
 query_type: query
-name: Transactions + Invoices + Doctors
+name: Transactions + Invoices + Doctors - Duplicate - Duplicate - Duplicate
 document_id: null
 type: question
-creator_id: katya@metabase.com
+creator_id: katya+demodev@metabase.com
 made_public_by_id: null
 embedding_params: null
 dataset_query:
@@ -891,8 +892,8 @@ dataset_query:
     - healthcare_transactions_demo
     - transactions
     joins:
-    - fields: all
-      strategy: left-join
+    - strategy: left-join
+      fields: all
       alias: Invoices
       condition:
       - =
@@ -935,21 +936,41 @@ dataset_query:
       - Healthcare transactions demo
       - healthcare_transactions_demo
       - doctors
+    filter:
+    - and
+    - - time-interval
+      - - field
+        - - Healthcare transactions demo
+          - healthcare_transactions_demo
+          - transactions
+          - created_at
+        - base-type: type/DateTime
+      - -12
+      - month
+    - - in
+      - - field
+        - - Healthcare transactions demo
+          - healthcare_transactions_demo
+          - transactions
+          - status
+        - base-type: type/Text
+      - pending
+      - under_review
 parameter_mappings: []
 serdes/meta:
 - model: Card
-  id: oP6r3XsZhHC5EhjN49ZLF
-  label: transactions___invoices___doctors
+  id: XUpud_G9rLtQdXYqRuwTt
+  label: transactions___invoices___doctors___duplicate___duplicate___duplicate
 display: table
 archived_directly: false
-entity_id: oP6r3XsZhHC5EhjN49ZLF
+entity_id: XUpud_G9rLtQdXYqRuwTt
 collection_preview: true
 visualization_settings:
   table.pivot_column: compliance_reason
   table.cell_column: invoice_amount
   column_settings: null
-metabase_version: vLOCAL_DEV (06d1ba2ae111e66253209c01c244d6379acfc6dcb1911fa9ab6012cec9ce52e5)
+metabase_version: vUNKNOWN (b9df4f2)
 parameters: []
-dashboard_id: nobp8NCMOFhwwG6uh9h9c
-created_at: '2025-11-04T12:43:38.991701Z'
+dashboard_id: LHma9huLeUmHpR8lDu55o
+created_at: '2025-11-06T12:38:00.186197Z'
 public_uuid: null
