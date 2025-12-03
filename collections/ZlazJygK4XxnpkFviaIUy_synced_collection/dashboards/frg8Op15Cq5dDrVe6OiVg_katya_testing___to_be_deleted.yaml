@@ -1,0 +1,104 @@
+description: null
+archived: false
+collection_position: null
+dashcards:
+- size_x: 24
+  dashboard_tab_id: null
+  series: []
+  inline_parameters: []
+  action_id: null
+  col: 0
+  parameter_mappings: []
+  serdes/meta:
+  - model: Dashboard
+    id: frg8Op15Cq5dDrVe6OiVg
+  - model: DashboardCard
+    id: hn67LxsNSAwp1G-WObbEL
+  card_id: In4986FNYtePCh0FkU9iJ
+  entity_id: hn67LxsNSAwp1G-WObbEL
+  visualization_settings:
+    column_settings: null
+  size_y: 11
+  created_at: '2025-12-03T17:50:28.729277Z'
+  row: 0
+- size_x: 12
+  dashboard_tab_id: null
+  series: []
+  inline_parameters: []
+  action_id: null
+  col: 0
+  parameter_mappings: []
+  serdes/meta:
+  - model: Dashboard
+    id: frg8Op15Cq5dDrVe6OiVg
+  - model: DashboardCard
+    id: IvnjHDfJcrR9eMMryryNx
+  card_id: se8Q-8sdO1QjqPoY9UpDW
+  entity_id: IvnjHDfJcrR9eMMryryNx
+  visualization_settings:
+    column_settings: null
+  size_y: 8
+  created_at: '2025-12-03T17:50:28.729277Z'
+  row: 11
+- size_x: 12
+  dashboard_tab_id: null
+  series: []
+  inline_parameters: []
+  action_id: null
+  col: 12
+  parameter_mappings: []
+  serdes/meta:
+  - model: Dashboard
+    id: frg8Op15Cq5dDrVe6OiVg
+  - model: DashboardCard
+    id: 4pq1p2aRJ-B-sZhpW6ZX_
+  card_id: jWOY3gNLUwgsMAP6Cto8U
+  entity_id: 4pq1p2aRJ-B-sZhpW6ZX_
+  visualization_settings:
+    column_settings: null
+  size_y: 8
+  created_at: '2025-12-03T17:50:28.729277Z'
+  row: 11
+- size_x: 12
+  dashboard_tab_id: null
+  series: []
+  inline_parameters: []
+  action_id: null
+  col: 0
+  parameter_mappings: []
+  serdes/meta:
+  - model: Dashboard
+    id: frg8Op15Cq5dDrVe6OiVg
+  - model: DashboardCard
+    id: SZVM0o2dnmh6vaLEnHy71
+  card_id: uBlE_KNLh838fU9XFNHDl
+  entity_id: SZVM0o2dnmh6vaLEnHy71
+  visualization_settings:
+    column_settings: null
+  size_y: 8
+  created_at: '2025-12-03T17:50:28.729277Z'
+  row: 19
+embedding_type: null
+initially_published_at: null
+tabs: []
+enable_embedding: false
+collection_id: ZlazJygK4XxnpkFviaIUy
+show_in_getting_started: false
+name: Katya testing - to be deleted
+width: fixed
+caveats: null
+creator_id: katya+demodev@metabase.com
+made_public_by_id: null
+embedding_params: null
+serdes/meta:
+- model: Dashboard
+  id: frg8Op15Cq5dDrVe6OiVg
+  label: katya_testing___to_be_deleted
+position: null
+archived_directly: false
+entity_id: frg8Op15Cq5dDrVe6OiVg
+parameters: []
+auto_apply_filters: true
+created_at: '2025-12-03T17:50:28.729277Z'
+public_uuid: null
+points_of_interest: null
