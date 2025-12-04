@@ -1,0 +1,634 @@
+description: null
+archived: false
+collection_position: null
+source_card_id: null
+published_table_id: null
+table_id: null
+result_metadata:
+- database_type: serial
+  semantic_type: null
+  lib/deduplicated-name: transaction_id
+  lib/original-name: transaction_id
+  name: transaction_id
+  lib/source: source/native
+  lib/source-column-alias: transaction_id
+  source: native
+  field_ref:
+  - field
+  - transaction_id
+  - base-type: type/Integer
+  effective_type: type/Integer
+  lib/desired-column-alias: transaction_id
+  display_name: transaction_id
+  base_type: type/Integer
+- database_type: date
+  semantic_type: null
+  lib/deduplicated-name: transaction_date
+  lib/original-name: transaction_date
+  name: transaction_date
+  lib/source: source/native
+  lib/source-column-alias: transaction_date
+  source: native
+  field_ref:
+  - field
+  - transaction_date
+  - base-type: type/Date
+  effective_type: type/Date
+  lib/desired-column-alias: transaction_date
+  display_name: transaction_date
+  base_type: type/Date
+- database_type: varchar
+  semantic_type: null
+  lib/deduplicated-name: transaction_status
+  lib/original-name: transaction_status
+  name: transaction_status
+  lib/source: source/native
+  lib/source-column-alias: transaction_status
+  source: native
+  field_ref:
+  - field
+  - transaction_status
+  - base-type: type/Text
+  effective_type: type/Text
+  lib/desired-column-alias: transaction_status
+  display_name: transaction_status
+  base_type: type/Text
+- database_type: bool
+  semantic_type: null
+  lib/deduplicated-name: compliance_flag
+  lib/original-name: compliance_flag
+  name: compliance_flag
+  lib/source: source/native
+  lib/source-column-alias: compliance_flag
+  source: native
+  field_ref:
+  - field
+  - compliance_flag
+  - base-type: type/Boolean
+  effective_type: type/Boolean
+  lib/desired-column-alias: compliance_flag
+  display_name: compliance_flag
+  base_type: type/Boolean
+- database_type: text
+  semantic_type: null
+  lib/deduplicated-name: compliance_reason
+  lib/original-name: compliance_reason
+  name: compliance_reason
+  lib/source: source/native
+  lib/source-column-alias: compliance_reason
+  source: native
+  field_ref:
+  - field
+  - compliance_reason
+  - base-type: type/Text
+  effective_type: type/Text
+  lib/desired-column-alias: compliance_reason
+  display_name: compliance_reason
+  base_type: type/Text
+- database_type: serial
+  semantic_type: null
+  lib/deduplicated-name: invoice_id
+  lib/original-name: invoice_id
+  name: invoice_id
+  lib/source: source/native
+  lib/source-column-alias: invoice_id
+  source: native
+  field_ref:
+  - field
+  - invoice_id
+  - base-type: type/Integer
+  effective_type: type/Integer
+  lib/desired-column-alias: invoice_id
+  display_name: invoice_id
+  base_type: type/Integer
+- database_type: varchar
+  semantic_type: null
+  lib/deduplicated-name: invoice_number
+  lib/original-name: invoice_number
+  name: invoice_number
+  lib/source: source/native
+  lib/source-column-alias: invoice_number
+  source: native
+  field_ref:
+  - field
+  - invoice_number
+  - base-type: type/Text
+  effective_type: type/Text
+  lib/desired-column-alias: invoice_number
+  display_name: invoice_number
+  base_type: type/Text
+- database_type: date
+  semantic_type: null
+  lib/deduplicated-name: invoice_date
+  lib/original-name: invoice_date
+  name: invoice_date
+  lib/source: source/native
+  lib/source-column-alias: invoice_date
+  source: native
+  field_ref:
+  - field
+  - invoice_date
+  - base-type: type/Date
+  effective_type: type/Date
+  lib/desired-column-alias: invoice_date
+  display_name: invoice_date
+  base_type: type/Date
+- database_type: serial
+  semantic_type: null
+  lib/deduplicated-name: service_id
+  lib/original-name: service_id
+  name: service_id
+  lib/source: source/native
+  lib/source-column-alias: service_id
+  source: native
+  field_ref:
+  - field
+  - service_id
+  - base-type: type/Integer
+  effective_type: type/Integer
+  lib/desired-column-alias: service_id
+  display_name: service_id
+  base_type: type/Integer
+- database_type: varchar
+  semantic_type: null
+  lib/deduplicated-name: service_code
+  lib/original-name: service_code
+  name: service_code
+  lib/source: source/native
+  lib/source-column-alias: service_code
+  source: native
+  field_ref:
+  - field
+  - service_code
+  - base-type: type/Text
+  effective_type: type/Text
+  lib/desired-column-alias: service_code
+  display_name: service_code
+  base_type: type/Text
+- database_type: varchar
+  semantic_type: null
+  lib/deduplicated-name: service_name
+  lib/original-name: service_name
+  name: service_name
+  lib/source: source/native
+  lib/source-column-alias: service_name
+  source: native
+  field_ref:
+  - field
+  - service_name
+  - base-type: type/Text
+  effective_type: type/Text
+  lib/desired-column-alias: service_name
+  display_name: service_name
+  base_type: type/Text
+- database_type: numeric
+  semantic_type: null
+  lib/deduplicated-name: base_price_usd
+  lib/original-name: base_price_usd
+  name: base_price_usd
+  lib/source: source/native
+  lib/source-column-alias: base_price_usd
+  source: native
+  field_ref:
+  - field
+  - base_price_usd
+  - base-type: type/Decimal
+  effective_type: type/Decimal
+  lib/desired-column-alias: base_price_usd
+  display_name: base_price_usd
+  base_type: type/Decimal
+- database_type: numeric
+  semantic_type: null
+  lib/deduplicated-name: total_hours
+  lib/original-name: total_hours
+  name: total_hours
+  lib/source: source/native
+  lib/source-column-alias: total_hours
+  source: native
+  field_ref:
+  - field
+  - total_hours
+  - base-type: type/Decimal
+  effective_type: type/Decimal
+  lib/desired-column-alias: total_hours
+  display_name: total_hours
+  base_type: type/Decimal
+- database_type: numeric
+  semantic_type: type/Discount
+  lib/deduplicated-name: discount_usd
+  lib/original-name: discount_usd
+  name: discount_usd
+  lib/source: source/native
+  lib/source-column-alias: discount_usd
+  source: native
+  field_ref:
+  - field
+  - discount_usd
+  - base-type: type/Decimal
+  effective_type: type/Decimal
+  lib/desired-column-alias: discount_usd
+  display_name: discount_usd
+  base_type: type/Decimal
+- database_type: numeric
+  semantic_type: null
+  lib/deduplicated-name: invoice_amount
+  lib/original-name: invoice_amount
+  name: invoice_amount
+  lib/source: source/native
+  lib/source-column-alias: invoice_amount
+  source: native
+  field_ref:
+  - field
+  - invoice_amount
+  - base-type: type/Decimal
+  effective_type: type/Decimal
+  lib/desired-column-alias: invoice_amount
+  display_name: invoice_amount
+  base_type: type/Decimal
+- database_type: numeric
+  semantic_type: null
+  lib/deduplicated-name: revenue_usd
+  lib/original-name: revenue_usd
+  name: revenue_usd
+  lib/source: source/native
+  lib/source-column-alias: revenue_usd
+  source: native
+  field_ref:
+  - field
+  - revenue_usd
+  - base-type: type/Decimal
+  effective_type: type/Decimal
+  lib/desired-column-alias: revenue_usd
+  display_name: revenue_usd
+  base_type: type/Decimal
+- database_type: numeric
+  semantic_type: null
+  lib/deduplicated-name: hourly_rate_usd
+  lib/original-name: hourly_rate_usd
+  name: hourly_rate_usd
+  lib/source: source/native
+  lib/source-column-alias: hourly_rate_usd
+  source: native
+  field_ref:
+  - field
+  - hourly_rate_usd
+  - base-type: type/Decimal
+  effective_type: type/Decimal
+  lib/desired-column-alias: hourly_rate_usd
+  display_name: hourly_rate_usd
+  base_type: type/Decimal
+- database_type: numeric
+  semantic_type: type/Cost
+  lib/deduplicated-name: cost_usd
+  lib/original-name: cost_usd
+  name: cost_usd
+  lib/source: source/native
+  lib/source-column-alias: cost_usd
+  source: native
+  field_ref:
+  - field
+  - cost_usd
+  - base-type: type/Decimal
+  effective_type: type/Decimal
+  lib/desired-column-alias: cost_usd
+  display_name: cost_usd
+  base_type: type/Decimal
+- database_type: numeric
+  semantic_type: null
+  lib/deduplicated-name: profit_usd
+  lib/original-name: profit_usd
+  name: profit_usd
+  lib/source: source/native
+  lib/source-column-alias: profit_usd
+  source: native
+  field_ref:
+  - field
+  - profit_usd
+  - base-type: type/Decimal
+  effective_type: type/Decimal
+  lib/desired-column-alias: profit_usd
+  display_name: profit_usd
+  base_type: type/Decimal
+- database_type: numeric
+  semantic_type: type/GrossMargin
+  lib/deduplicated-name: margin_pct
+  lib/original-name: margin_pct
+  name: margin_pct
+  lib/source: source/native
+  lib/source-column-alias: margin_pct
+  source: native
+  field_ref:
+  - field
+  - margin_pct
+  - base-type: type/Decimal
+  effective_type: type/Decimal
+  lib/desired-column-alias: margin_pct
+  display_name: margin_pct
+  base_type: type/Decimal
+- database_type: varchar
+  semantic_type: null
+  lib/deduplicated-name: insurance_provider
+  lib/original-name: insurance_provider
+  name: insurance_provider
+  lib/source: source/native
+  lib/source-column-alias: insurance_provider
+  source: native
+  field_ref:
+  - field
+  - insurance_provider
+  - base-type: type/Text
+  effective_type: type/Text
+  lib/desired-column-alias: insurance_provider
+  display_name: insurance_provider
+  base_type: type/Text
+- database_type: text
+  semantic_type: null
+  lib/deduplicated-name: patient_first_name_masked
+  lib/original-name: patient_first_name_masked
+  name: patient_first_name_masked
+  lib/source: source/native
+  lib/source-column-alias: patient_first_name_masked
+  source: native
+  field_ref:
+  - field
+  - patient_first_name_masked
+  - base-type: type/Text
+  effective_type: type/Text
+  lib/desired-column-alias: patient_first_name_masked
+  display_name: patient_first_name_masked
+  base_type: type/Text
+- database_type: text
+  semantic_type: null
+  lib/deduplicated-name: patient_last_name_masked
+  lib/original-name: patient_last_name_masked
+  name: patient_last_name_masked
+  lib/source: source/native
+  lib/source-column-alias: patient_last_name_masked
+  source: native
+  field_ref:
+  - field
+  - patient_last_name_masked
+  - base-type: type/Text
+  effective_type: type/Text
+  lib/desired-column-alias: patient_last_name_masked
+  display_name: patient_last_name_masked
+  base_type: type/Text
+- database_type: varchar
+  semantic_type: null
+  lib/deduplicated-name: patient_state_code
+  lib/original-name: patient_state_code
+  name: patient_state_code
+  lib/source: source/native
+  lib/source-column-alias: patient_state_code
+  source: native
+  field_ref:
+  - field
+  - patient_state_code
+  - base-type: type/Text
+  effective_type: type/Text
+  lib/desired-column-alias: patient_state_code
+  display_name: patient_state_code
+  base_type: type/Text
+- database_type: varchar
+  semantic_type: null
+  lib/deduplicated-name: patient_state_name
+  lib/original-name: patient_state_name
+  name: patient_state_name
+  lib/source: source/native
+  lib/source-column-alias: patient_state_name
+  source: native
+  field_ref:
+  - field
+  - patient_state_name
+  - base-type: type/Text
+  effective_type: type/Text
+  lib/desired-column-alias: patient_state_name
+  display_name: patient_state_name
+  base_type: type/Text
+- database_type: varchar
+  semantic_type: null
+  lib/deduplicated-name: patient_city_name
+  lib/original-name: patient_city_name
+  name: patient_city_name
+  lib/source: source/native
+  lib/source-column-alias: patient_city_name
+  source: native
+  field_ref:
+  - field
+  - patient_city_name
+  - base-type: type/Text
+  effective_type: type/Text
+  lib/desired-column-alias: patient_city_name
+  display_name: patient_city_name
+  base_type: type/Text
+- database_type: serial
+  semantic_type: null
+  lib/deduplicated-name: doctor_id
+  lib/original-name: doctor_id
+  name: doctor_id
+  lib/source: source/native
+  lib/source-column-alias: doctor_id
+  source: native
+  field_ref:
+  - field
+  - doctor_id
+  - base-type: type/Integer
+  effective_type: type/Integer
+  lib/desired-column-alias: doctor_id
+  display_name: doctor_id
+  base_type: type/Integer
+- database_type: varchar
+  semantic_type: null
+  lib/deduplicated-name: doctor_first_name
+  lib/original-name: doctor_first_name
+  name: doctor_first_name
+  lib/source: source/native
+  lib/source-column-alias: doctor_first_name
+  source: native
+  field_ref:
+  - field
+  - doctor_first_name
+  - base-type: type/Text
+  effective_type: type/Text
+  lib/desired-column-alias: doctor_first_name
+  display_name: doctor_first_name
+  base_type: type/Text
+- database_type: varchar
+  semantic_type: null
+  lib/deduplicated-name: doctor_last_name
+  lib/original-name: doctor_last_name
+  name: doctor_last_name
+  lib/source: source/native
+  lib/source-column-alias: doctor_last_name
+  source: native
+  field_ref:
+  - field
+  - doctor_last_name
+  - base-type: type/Text
+  effective_type: type/Text
+  lib/desired-column-alias: doctor_last_name
+  display_name: doctor_last_name
+  base_type: type/Text
+- database_type: varchar
+  semantic_type: null
+  lib/deduplicated-name: doctor_email
+  lib/original-name: doctor_email
+  name: doctor_email
+  lib/source: source/native
+  lib/source-column-alias: doctor_email
+  source: native
+  field_ref:
+  - field
+  - doctor_email
+  - base-type: type/Text
+  effective_type: type/Text
+  lib/desired-column-alias: doctor_email
+  display_name: doctor_email
+  base_type: type/Text
+- database_type: varchar
+  semantic_type: null
+  lib/deduplicated-name: doctor_phone
+  lib/original-name: doctor_phone
+  name: doctor_phone
+  lib/source: source/native
+  lib/source-column-alias: doctor_phone
+  source: native
+  field_ref:
+  - field
+  - doctor_phone
+  - base-type: type/Text
+  effective_type: type/Text
+  lib/desired-column-alias: doctor_phone
+  display_name: doctor_phone
+  base_type: type/Text
+embedding_type: null
+card_schema: 22
+database_id: Healthcare transactions demo
+enable_embedding: false
+collection_id: N3C9SvgzCfgJ7uh2RzLhb
+query_type: native
+name: Consolidated transactions table - SQL
+document_id: null
+type: question
+creator_id: katya@metabase.com
+made_public_by_id: null
+embedding_params: null
+dataset_query:
+  database: Healthcare transactions demo
+  type: native
+  native:
+    query: |
+      WITH base AS (
+        SELECT
+          t.tx_id,
+          t.created_at::timestamp                AS created_at, -- drop tz if any; adjust if you store timestamptz
+          t.status,
+          t.compliance_flag,
+          t.compliance_reason,
+          i.invoice_id,
+          i.invoice_number,
+          i.invoice_date::date                   AS invoice_date,
+          i.invoice_amount::numeric(12,2)        AS invoice_amount,
+          i.total_hours::numeric(6,2)            AS total_hours,
+          i.discount_usd::numeric(10,2)          AS discount_usd,
+          s.service_id,
+          s.service_code,
+          s.service_name,
+          s.base_price_usd::numeric(10,2)        AS base_price_usd,
+          p.patient_id,
+          p.first_name                           AS patient_first_name,
+          p.last_name                            AS patient_last_name,
+          p.email                                AS patient_email,
+          p.phone                                AS patient_phone,
+          p.address                              AS patient_address,
+          p.postal_code                          AS patient_postal_code,
+          p.insurance_provider,
+          gs.state_code                          AS patient_state_code,
+          gs.state_name                          AS patient_state_name,
+          gc.city_name                           AS patient_city_name,
+          d.doctor_id,
+          d.first_name                           AS doctor_first_name,
+          d.last_name                            AS doctor_last_name,
+          d.title                                AS doctor_title,
+          d.email                                AS doctor_email,
+          d.phone                                AS doctor_phone,
+          d.hourly_rate_usd::numeric(10,2)       AS hourly_rate_usd
+        FROM healthcare_transactions_demo.transactions t
+        JOIN healthcare_transactions_demo.invoices  i ON t.invoice_id = i.invoice_id
+        JOIN healthcare_transactions_demo.patients  p ON t.patient_id = p.patient_id
+        JOIN healthcare_transactions_demo.doctors   d ON t.doctor_id = d.doctor_id
+        JOIN healthcare_transactions_demo.services  s ON t.service_id = s.service_id
+        LEFT JOIN healthcare_transactions_demo.geo_city  gc ON p.city_id = gc.city_id
+        LEFT JOIN healthcare_transactions_demo.geo_state gs ON p.state_id = gs.state_id
+      ),
+      calc AS (
+        SELECT
+          *,
+          (hourly_rate_usd * COALESCE(total_hours, 0))::numeric(12,2)                 AS cost_usd,
+          (invoice_amount - COALESCE(discount_usd, 0))::numeric(12,2)                 AS revenue_usd
+        FROM base
+      )
+      SELECT
+        -- Required final column order
+        tx_id                                    AS transaction_id,
+        created_at::date                         AS transaction_date,   -- keep DATE only
+        status                                   AS transaction_status,
+        compliance_flag,
+        compliance_reason,
+        invoice_id,
+        invoice_number,
+        invoice_date,                            -- already DATE
+        service_id,
+        service_code,
+        service_name,
+        base_price_usd,
+        total_hours,
+        discount_usd,
+        invoice_amount,
+        revenue_usd,
+        hourly_rate_usd,
+        cost_usd,
+        (revenue_usd - cost_usd)::numeric(12,2)  AS profit_usd,
+        CASE
+          WHEN revenue_usd > 0 THEN ((revenue_usd - cost_usd) / revenue_usd)
+          ELSE NULL
+        END::numeric(6,4)                        AS margin_pct,
+        insurance_provider,
+        -- Masked patient names
+        CASE
+          WHEN patient_first_name IS NULL OR length(patient_first_name) = 0 THEN NULL
+          ELSE left(patient_first_name, 1) || '******'
+        END                                       AS patient_first_name_masked,
+        CASE
+          WHEN patient_last_name IS NULL OR length(patient_last_name) = 0 THEN NULL
+          WHEN length(patient_last_name) = 1 THEN left(patient_last_name, 1) || '******'
+          ELSE left(patient_last_name, 2) || '******' || right(patient_last_name, 1)
+        END                                       AS patient_last_name_masked,
+        patient_state_code,
+        patient_state_name,
+        patient_city_name,
+        doctor_id,
+        doctor_first_name,
+        doctor_last_name,
+        -- Doctor PII left unmasked per your spec
+        doctor_email,
+        doctor_phone
+      FROM calc;
+parameter_mappings: []
+serdes/meta:
+- model: Card
+  id: LA-ZxyqvvaeMVCJ9Qy6zx
+  label: consolidated_transactions_table___sql
+display: table
+archived_directly: false
+entity_id: LA-ZxyqvvaeMVCJ9Qy6zx
+collection_preview: true
+visualization_settings:
+  table.pivot_column: compliance_reason
+  table.cell_column: base_price_usd
+  column_settings: null
+metabase_version: vLOCAL_DEV (06d1ba2ae111e66253209c01c244d6379acfc6dcb1911fa9ab6012cec9ce52e5)
+parameters: []
+dashboard_id: null
+created_at: '2025-11-05T09:23:03.685939Z'
+public_uuid: null
