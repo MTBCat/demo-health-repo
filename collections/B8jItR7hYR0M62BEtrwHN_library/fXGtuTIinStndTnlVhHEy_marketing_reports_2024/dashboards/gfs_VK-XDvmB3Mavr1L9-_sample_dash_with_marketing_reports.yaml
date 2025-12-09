@@ -1,0 +1,103 @@
+description: null
+archived: false
+collection_position: null
+dashcards:
+- size_x: 9
+  dashboard_tab_id: null
+  series: []
+  inline_parameters: []
+  action_id: null
+  col: 0
+  parameter_mappings: []
+  serdes/meta:
+  - model: Dashboard
+    id: gfs_VK-XDvmB3Mavr1L9-
+  - model: DashboardCard
+    id: Yy2NwPKbDTeKq55dzDfoS
+  card_id: s9BRzpOqTBf-cGnypoxYC
+  entity_id: Yy2NwPKbDTeKq55dzDfoS
+  visualization_settings:
+    column_settings: null
+  size_y: 5
+  created_at: '2025-12-09T14:15:48.165013Z'
+  row: 0
+- size_x: 8
+  dashboard_tab_id: null
+  series: []
+  inline_parameters: []
+  action_id: null
+  col: 9
+  parameter_mappings: []
+  serdes/meta:
+  - model: Dashboard
+    id: gfs_VK-XDvmB3Mavr1L9-
+  - model: DashboardCard
+    id: e8XqCby2BSQwiE27_2anO
+  card_id: OAGi2WPklkB-tE9Z5m1hd
+  entity_id: e8XqCby2BSQwiE27_2anO
+  visualization_settings:
+    column_settings: null
+  size_y: 5
+  created_at: '2025-12-09T14:16:25.898963Z'
+  row: 0
+- size_x: 7
+  dashboard_tab_id: null
+  series: []
+  inline_parameters: []
+  action_id: null
+  col: 17
+  parameter_mappings: []
+  serdes/meta:
+  - model: Dashboard
+    id: gfs_VK-XDvmB3Mavr1L9-
+  - model: DashboardCard
+    id: 6RDa5lp_PHStCvxN8Bb08
+  card_id: S257GcRSvqppaxL8V55N3
+  entity_id: 6RDa5lp_PHStCvxN8Bb08
+  visualization_settings:
+    column_settings: null
+  size_y: 5
+  created_at: '2025-12-09T14:16:59.228222Z'
+  row: 0
+- size_x: 24
+  dashboard_tab_id: null
+  series: []
+  inline_parameters: []
+  action_id: null
+  col: 0
+  parameter_mappings: []
+  serdes/meta:
+  - model: Dashboard
+    id: gfs_VK-XDvmB3Mavr1L9-
+  - model: DashboardCard
+    id: 77dX1dfnHUNafqHsb6kIy
+  card_id: ei1pGxjDO7WfvUH2x9R3f
+  entity_id: 77dX1dfnHUNafqHsb6kIy
+  visualization_settings:
+    column_settings: null
+  size_y: 8
+  created_at: '2025-12-09T14:18:05.389226Z'
+  row: 5
+initially_published_at: null
+tabs: []
+enable_embedding: false
+collection_id: fXGtuTIinStndTnlVhHEy
+show_in_getting_started: false
+name: Sample dash with marketing reports
+width: fixed
+caveats: null
+creator_id: katya+demodev@metabase.com
+made_public_by_id: null
+embedding_params: null
+serdes/meta:
+- model: Dashboard
+  id: gfs_VK-XDvmB3Mavr1L9-
+  label: sample_dash_with_marketing_reports
+position: null
+archived_directly: false
+entity_id: gfs_VK-XDvmB3Mavr1L9-
+parameters: []
+auto_apply_filters: true
+created_at: '2025-12-09T14:14:31.748356Z'
+public_uuid: null
+points_of_interest: null
