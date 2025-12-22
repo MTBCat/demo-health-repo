@@ -1,0 +1,84 @@
+name: Healthcare  demo dashboard - Dec 9, 2025
+description: Use this dashboard to demo remote sync
+entity_id: dMiPrYugqrbtBxVCdKIWW
+created_at: '2025-12-09T14:18:54.096503Z'
+creator_id: katya+demodev@metabase.com
+archived: false
+collection_id: B8jItR7hYR0M62BEtrwHN
+auto_apply_filters: true
+collection_position: null
+position: null
+enable_embedding: false
+embedding_params: null
+made_public_by_id: null
+public_uuid: null
+show_in_getting_started: false
+caveats: null
+points_of_interest: null
+parameters: []
+serdes/meta:
+- id: dMiPrYugqrbtBxVCdKIWW
+  label: healthcare__demo_dashboard___dec_9__2025
+  model: Dashboard
+archived_directly: false
+dashcards:
+- entity_id: rKTFIiZf05dNRal_ehl35
+  card_id: JULTqHipZu_CCTscDbA9k
+  created_at: '2025-12-09T14:18:54.096503Z'
+  row: 0
+  col: 0
+  size_x: 24
+  size_y: 15
+  action_id: null
+  dashboard_tab_id: null
+  inline_parameters: []
+  parameter_mappings: []
+  series: []
+  visualization_settings:
+    column_settings: null
+  serdes/meta:
+  - id: dMiPrYugqrbtBxVCdKIWW
+    model: Dashboard
+  - id: rKTFIiZf05dNRal_ehl35
+    model: DashboardCard
+- entity_id: MN-1NdAMuONoZXOM9MWI4
+  card_id: Clr2bNrb-wxDFzL-kgOOP
+  created_at: '2025-12-09T14:18:54.096503Z'
+  row: 15
+  col: 0
+  size_x: 24
+  size_y: 8
+  action_id: null
+  dashboard_tab_id: null
+  inline_parameters: []
+  parameter_mappings: []
+  series: []
+  visualization_settings:
+    column_settings: null
+  serdes/meta:
+  - id: dMiPrYugqrbtBxVCdKIWW
+    model: Dashboard
+  - id: MN-1NdAMuONoZXOM9MWI4
+    model: DashboardCard
+- entity_id: lMUY2Mk5iOmV8yGGAf_5F
+  card_id: 2BnM6zaEuvHUyZI79Fe_6
+  created_at: '2025-12-09T14:18:54.096503Z'
+  row: 23
+  col: 0
+  size_x: 24
+  size_y: 9
+  action_id: null
+  dashboard_tab_id: null
+  inline_parameters: []
+  parameter_mappings: []
+  series: []
+  visualization_settings:
+    column_settings: null
+  serdes/meta:
+  - id: dMiPrYugqrbtBxVCdKIWW
+    model: Dashboard
+  - id: lMUY2Mk5iOmV8yGGAf_5F
+    model: DashboardCard
+initially_published_at: null
+tabs: []
+width: fixed

@@ -1,0 +1,67 @@
+name: Average discount
+description: null
+entity_id: S257GcRSvqppaxL8V55N3
+created_at: '2025-12-09T14:16:59.197828Z'
+creator_id: katya+demodev@metabase.com
+display: scalar
+archived: false
+collection_id: fXGtuTIinStndTnlVhHEy
+collection_preview: true
+collection_position: null
+query_type: query
+database_id: Healthcare transactions demo
+table_id:
+- Healthcare transactions demo
+- healthcare_transactions_demo
+- invoices
+enable_embedding: false
+embedding_params: null
+made_public_by_id: null
+public_uuid: null
+parameters: []
+parameter_mappings: []
+dataset_query:
+  database: Healthcare transactions demo
+  query:
+    aggregation:
+    - - avg
+      - - field
+        - - Healthcare transactions demo
+          - healthcare_transactions_demo
+          - invoices
+          - discount_usd
+        - base-type: type/Decimal
+    source-table:
+    - Healthcare transactions demo
+    - healthcare_transactions_demo
+    - invoices
+  type: query
+result_metadata:
+- base_type: type/Decimal
+  database_type: numeric
+  display_name: Average of Discount Usd
+  effective_type: type/Decimal
+  field_ref:
+  - aggregation
+  - 0
+  name: avg
+  semantic_type: type/Discount
+  source: aggregation
+  lib/deduplicated-name: avg
+  lib/desired-column-alias: avg
+  lib/original-name: avg
+  lib/source: source/aggregations
+  lib/source-column-alias: avg
+visualization_settings:
+  column_settings: null
+card_schema: 23
+serdes/meta:
+- id: S257GcRSvqppaxL8V55N3
+  label: average_discount
+  model: Card
+archived_directly: false
+dashboard_id: gfs_VK-XDvmB3Mavr1L9-
+document_id: null
+metabase_version: v1.57.5.2 (63b11ed)
+source_card_id: null
+type: question

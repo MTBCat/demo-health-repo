@@ -1,0 +1,139 @@
+name: Patient distribution geography
+description: null
+entity_id: 2BnM6zaEuvHUyZI79Fe_6
+created_at: '2025-12-09T14:18:54.096503Z'
+creator_id: katya+demodev@metabase.com
+display: bar
+archived: false
+collection_id: B8jItR7hYR0M62BEtrwHN
+collection_preview: true
+collection_position: null
+query_type: query
+database_id: Healthcare transactions demo
+table_id:
+- Healthcare transactions demo
+- healthcare_transactions_demo
+- patients
+enable_embedding: false
+embedding_params: null
+made_public_by_id: null
+public_uuid: null
+parameters: []
+parameter_mappings: []
+dataset_query:
+  database: Healthcare transactions demo
+  query:
+    aggregation:
+    - - count
+    breakout:
+    - - field
+      - - Healthcare transactions demo
+        - healthcare_transactions_demo
+        - geo_city
+        - city_name
+      - base-type: type/Text
+        join-alias: Geo City - City
+    joins:
+    - alias: Geo City - City
+      condition:
+      - =
+      - - field
+        - - Healthcare transactions demo
+          - healthcare_transactions_demo
+          - patients
+          - city_id
+        - base-type: type/Integer
+      - - field
+        - - Healthcare transactions demo
+          - healthcare_transactions_demo
+          - geo_city
+          - city_id
+        - base-type: type/Integer
+          join-alias: Geo City - City
+      fields: all
+      source-table:
+      - Healthcare transactions demo
+      - healthcare_transactions_demo
+      - geo_city
+      strategy: left-join
+    order-by:
+    - - desc
+      - - aggregation
+        - 0
+        - base-type: type/Integer
+    source-table:
+    - Healthcare transactions demo
+    - healthcare_transactions_demo
+    - patients
+  type: query
+result_metadata:
+- active: true
+  base_type: type/Text
+  database_type: varchar
+  display_name: Geo City - City → City Name
+  effective_type: type/Text
+  field_ref:
+  - field
+  - - Healthcare transactions demo
+    - healthcare_transactions_demo
+    - geo_city
+    - city_name
+  - join-alias: Geo City - City
+  id:
+  - Healthcare transactions demo
+  - healthcare_transactions_demo
+  - geo_city
+  - city_name
+  name: city_name
+  position: 2
+  semantic_type: null
+  source: breakout
+  source_alias: Geo City - City
+  table_id:
+  - Healthcare transactions demo
+  - healthcare_transactions_demo
+  - geo_city
+  visibility_type: normal
+  lib/breakout?: true
+  lib/deduplicated-name: city_name
+  lib/desired-column-alias: Geo City - City__city_name
+  lib/original-display-name: City Name
+  lib/original-join-alias: Geo City - City
+  lib/original-name: city_name
+  lib/source: source/joins
+  lib/source-column-alias: city_name
+  metabase.lib.join/join-alias: Geo City - City
+  qp/implicit-field?: true
+- base_type: type/BigInteger
+  database_type: int8
+  display_name: Count
+  effective_type: type/BigInteger
+  field_ref:
+  - aggregation
+  - 0
+  name: count
+  semantic_type: type/Quantity
+  source: aggregation
+  lib/deduplicated-name: count
+  lib/desired-column-alias: count
+  lib/original-name: count
+  lib/source: source/aggregations
+  lib/source-column-alias: count
+visualization_settings:
+  column_settings: null
+  graph.dimensions:
+  - city_name
+  graph.metrics:
+  - count
+  graph.x_axis.scale: ordinal
+card_schema: 23
+serdes/meta:
+- id: 2BnM6zaEuvHUyZI79Fe_6
+  label: patient_distribution_geography
+  model: Card
+archived_directly: false
+dashboard_id: dMiPrYugqrbtBxVCdKIWW
+document_id: null
+metabase_version: v1.57.5.2 (63b11ed)
+source_card_id: null
+type: question
