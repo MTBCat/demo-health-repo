@@ -53,7 +53,9 @@ result_metadata:
   lib/source: source/aggregations
   lib/source-column-alias: avg
 visualization_settings:
-  column_settings: null
+  column_settings:
+    '["name","avg"]':
+      number_style: currency
 card_schema: 23
 serdes/meta:
 - id: OAGi2WPklkB-tE9Z5m1hd
