@@ -25,7 +25,7 @@ dashcards:
 - entity_id: Yy2NwPKbDTeKq55dzDfoS
   card_id: s9BRzpOqTBf-cGnypoxYC
   created_at: '2025-12-09T14:15:48.165013Z'
-  row: 0
+  row: 7
   col: 0
   size_x: 9
   size_y: 5
@@ -44,7 +44,7 @@ dashcards:
 - entity_id: e8XqCby2BSQwiE27_2anO
   card_id: OAGi2WPklkB-tE9Z5m1hd
   created_at: '2025-12-09T14:16:25.898963Z'
-  row: 0
+  row: 7
   col: 9
   size_x: 8
   size_y: 5
@@ -63,7 +63,7 @@ dashcards:
 - entity_id: 6RDa5lp_PHStCvxN8Bb08
   card_id: S257GcRSvqppaxL8V55N3
   created_at: '2025-12-09T14:16:59.228222Z'
-  row: 0
+  row: 7
   col: 17
   size_x: 7
   size_y: 5
@@ -82,7 +82,7 @@ dashcards:
 - entity_id: 77dX1dfnHUNafqHsb6kIy
   card_id: ei1pGxjDO7WfvUH2x9R3f
   created_at: '2025-12-09T14:18:05.389226Z'
-  row: 5
+  row: 12
   col: 0
   size_x: 24
   size_y: 8
@@ -97,6 +97,25 @@ dashcards:
   - id: gfs_VK-XDvmB3Mavr1L9-
     model: Dashboard
   - id: 77dX1dfnHUNafqHsb6kIy
+    model: DashboardCard
+- entity_id: 0rQUf8_cCn_wekFQs1O6O
+  card_id: c3rljZ_MxlKoYNfoRccLw
+  created_at: '2026-02-24T02:43:19.778847Z'
+  row: 0
+  col: 0
+  size_x: 24
+  size_y: 7
+  action_id: null
+  dashboard_tab_id: null
+  inline_parameters: []
+  parameter_mappings: []
+  series: []
+  visualization_settings:
+    column_settings: null
+  serdes/meta:
+  - id: gfs_VK-XDvmB3Mavr1L9-
+    model: Dashboard
+  - id: 0rQUf8_cCn_wekFQs1O6O
     model: DashboardCard
 embedding_type: null
 initially_published_at: null
