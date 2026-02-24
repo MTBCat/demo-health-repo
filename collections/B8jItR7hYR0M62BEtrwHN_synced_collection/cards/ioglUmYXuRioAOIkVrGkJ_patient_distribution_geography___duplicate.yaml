@@ -1,7 +1,7 @@
-name: Patient distribution geography
+name: Patient distribution geography - Duplicate
 description: null
-entity_id: 2BnM6zaEuvHUyZI79Fe_6
-created_at: '2025-12-09T14:18:54.096503Z'
+entity_id: ioglUmYXuRioAOIkVrGkJ
+created_at: '2026-02-24T00:16:46.006798Z'
 creator_id: katya+demodev@metabase.com
 display: bar
 archived: false
@@ -31,8 +31,8 @@ dataset_query:
         - healthcare_transactions_demo
         - geo_city
         - city_name
-      - base-type: type/Text
-        join-alias: Geo City - City
+      - join-alias: Geo City - City
+        base-type: type/Text
     joins:
     - alias: Geo City - City
       condition:
@@ -48,8 +48,8 @@ dataset_query:
           - healthcare_transactions_demo
           - geo_city
           - city_id
-        - base-type: type/Integer
-          join-alias: Geo City - City
+        - join-alias: Geo City - City
+          base-type: type/Integer
       fields: all
       source-table:
       - Healthcare transactions demo
@@ -128,13 +128,13 @@ visualization_settings:
   graph.x_axis.scale: ordinal
 card_schema: 23
 serdes/meta:
-- id: 2BnM6zaEuvHUyZI79Fe_6
-  label: patient_distribution_geography
+- id: ioglUmYXuRioAOIkVrGkJ
+  label: patient_distribution_geography___duplicate
   model: Card
 archived_directly: false
-dashboard_id: dMiPrYugqrbtBxVCdKIWW
+dashboard_id: 2eNqm4vzPc0MeWYZyaoSk
 document_id: null
 embedding_type: null
-metabase_version: v1.57.5.2 (63b11ed)
+metabase_version: v1.58.7 (85988ba)
 source_card_id: null
 type: question

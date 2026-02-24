@@ -64,6 +64,7 @@ serdes/meta:
 archived_directly: false
 dashboard_id: gfs_VK-XDvmB3Mavr1L9-
 document_id: null
+embedding_type: null
 metabase_version: v1.57.5.2 (63b11ed)
 source_card_id: null
 type: question

@@ -1,7 +1,7 @@
-name: Completed transactions
+name: Completed transactions - Duplicate
 description: null
-entity_id: JULTqHipZu_CCTscDbA9k
-created_at: '2025-12-09T14:18:54.096503Z'
+entity_id: waOiiTff0Be-NFEl5H56O
+created_at: '2026-02-24T00:16:46.006798Z'
 creator_id: katya+demodev@metabase.com
 display: table
 archived: false
@@ -47,8 +47,8 @@ dataset_query:
           - healthcare_transactions_demo
           - doctors
           - doctor_id
-        - base-type: type/Integer
-          join-alias: Doctors
+        - join-alias: Doctors
+          base-type: type/Integer
       fields: all
       source-table:
       - Healthcare transactions demo
@@ -69,8 +69,8 @@ dataset_query:
           - healthcare_transactions_demo
           - invoices
           - invoice_id
-        - base-type: type/Integer
-          join-alias: Invoices
+        - join-alias: Invoices
+          base-type: type/Integer
       fields: all
       source-table:
       - Healthcare transactions demo
@@ -952,13 +952,13 @@ visualization_settings:
   table.pivot_column: status
 card_schema: 23
 serdes/meta:
-- id: JULTqHipZu_CCTscDbA9k
-  label: completed_transactions
+- id: waOiiTff0Be-NFEl5H56O
+  label: completed_transactions___duplicate
   model: Card
 archived_directly: false
-dashboard_id: dMiPrYugqrbtBxVCdKIWW
+dashboard_id: 2eNqm4vzPc0MeWYZyaoSk
 document_id: null
 embedding_type: null
-metabase_version: v1.57.5.2 (63b11ed)
+metabase_version: v1.58.7 (85988ba)
 source_card_id: null
 type: question

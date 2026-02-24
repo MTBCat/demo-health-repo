@@ -1,7 +1,7 @@
-name: Healthcare  demo dashboard - Dec 9, 2025
+name: 'Healthcare  demo dashboard - Feb, 2026 '
 description: Use this dashboard to demo remote sync
-entity_id: dMiPrYugqrbtBxVCdKIWW
-created_at: '2025-12-09T14:18:54.096503Z'
+entity_id: 2eNqm4vzPc0MeWYZyaoSk
+created_at: '2026-02-24T00:16:46.006798Z'
 creator_id: katya+demodev@metabase.com
 archived: false
 collection_id: B8jItR7hYR0M62BEtrwHN
@@ -17,14 +17,14 @@ caveats: null
 points_of_interest: null
 parameters: []
 serdes/meta:
-- id: dMiPrYugqrbtBxVCdKIWW
-  label: healthcare__demo_dashboard___dec_9__2025
+- id: 2eNqm4vzPc0MeWYZyaoSk
+  label: healthcare__demo_dashboard___feb__2026_
   model: Dashboard
 archived_directly: false
 dashcards:
-- entity_id: MN-1NdAMuONoZXOM9MWI4
-  card_id: Clr2bNrb-wxDFzL-kgOOP
-  created_at: '2025-12-09T14:18:54.096503Z'
+- entity_id: YJ-_e-_0xoPspLpRjIgVq
+  card_id: F3LypXuj5TgbDHRG-ZXXZ
+  created_at: '2026-02-24T00:16:46.006798Z'
   row: 25
   col: 0
   size_x: 24
@@ -37,13 +37,13 @@ dashcards:
   visualization_settings:
     column_settings: null
   serdes/meta:
-  - id: dMiPrYugqrbtBxVCdKIWW
+  - id: 2eNqm4vzPc0MeWYZyaoSk
     model: Dashboard
-  - id: MN-1NdAMuONoZXOM9MWI4
+  - id: YJ-_e-_0xoPspLpRjIgVq
     model: DashboardCard
-- entity_id: lMUY2Mk5iOmV8yGGAf_5F
-  card_id: 2BnM6zaEuvHUyZI79Fe_6
-  created_at: '2025-12-09T14:18:54.096503Z'
+- entity_id: aOOLa-vtzrKVnHL2OaAaI
+  card_id: ioglUmYXuRioAOIkVrGkJ
+  created_at: '2026-02-24T00:16:46.006798Z'
   row: 33
   col: 0
   size_x: 24
@@ -56,13 +56,13 @@ dashcards:
   visualization_settings:
     column_settings: null
   serdes/meta:
-  - id: dMiPrYugqrbtBxVCdKIWW
+  - id: 2eNqm4vzPc0MeWYZyaoSk
     model: Dashboard
-  - id: lMUY2Mk5iOmV8yGGAf_5F
+  - id: aOOLa-vtzrKVnHL2OaAaI
     model: DashboardCard
-- entity_id: rKTFIiZf05dNRal_ehl35
-  card_id: JULTqHipZu_CCTscDbA9k
-  created_at: '2025-12-09T14:18:54.096503Z'
+- entity_id: QMcbx1pGYgycmTBccGiGJ
+  card_id: waOiiTff0Be-NFEl5H56O
+  created_at: '2026-02-24T00:16:46.006798Z'
   row: 10
   col: 0
   size_x: 24
@@ -75,13 +75,13 @@ dashcards:
   visualization_settings:
     column_settings: null
   serdes/meta:
-  - id: dMiPrYugqrbtBxVCdKIWW
+  - id: 2eNqm4vzPc0MeWYZyaoSk
     model: Dashboard
-  - id: rKTFIiZf05dNRal_ehl35
+  - id: QMcbx1pGYgycmTBccGiGJ
     model: DashboardCard
-- entity_id: EN8-_tFgpe4z1h5cvvwuU
-  card_id: x2dT0xjusW3ev0L-UcnBb
-  created_at: '2026-02-24T00:11:59.398819Z'
+- entity_id: ljuuJ0bdg4oMmL3Yqhv7j
+  card_id: 87NDThvyIxlGu07acSzKZ
+  created_at: '2026-02-24T00:16:46.006798Z'
   row: 0
   col: 0
   size_x: 24
@@ -94,9 +94,9 @@ dashcards:
   visualization_settings:
     column_settings: null
   serdes/meta:
-  - id: dMiPrYugqrbtBxVCdKIWW
+  - id: 2eNqm4vzPc0MeWYZyaoSk
     model: Dashboard
-  - id: EN8-_tFgpe4z1h5cvvwuU
+  - id: ljuuJ0bdg4oMmL3Yqhv7j
     model: DashboardCard
 embedding_type: null
 initially_published_at: null
