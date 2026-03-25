@@ -1,0 +1,59 @@
+collection_id: 9ovwyhj2M-ylos1Bc4Vf4
+created_at: '2026-03-11T17:15:32.611264Z'
+creator_id: andrew@metabase.com
+description: null
+entity_id: Oc2vIrh2_FOJz_xpiJOZ2
+name: Monthly Revenue
+owner_email: null
+owner_user_id: andrew@metabase.com
+source:
+  query:
+    database: Sample Database PG
+    query:
+      aggregation:
+      - - sum
+        - - field
+          - - Sample Database PG
+            - public
+            - orders
+            - total
+          - base-type: type/Float
+      - - sum
+        - - field
+          - - Sample Database PG
+            - public
+            - orders
+            - tax
+          - base-type: type/Float
+      - - count
+      breakout:
+      - - field
+        - - Sample Database PG
+          - public
+          - orders
+          - created_at
+        - base-type: type/DateTime
+          temporal-unit: month
+      source-table:
+      - Sample Database PG
+      - public
+      - orders
+    type: query
+  type: query
+source_database_id: Sample Database PG
+tags:
+- entity_id: hxJYG5VX6RuDELtLhnl3T
+  position: 0
+  tag_id: DeeJHc81qKhD9qWINISO8
+  serdes/meta:
+  - id: hxJYG5VX6RuDELtLhnl3T
+    model: TransformTransformTag
+target:
+  database: Sample Database PG
+  name: monthly_revenue
+  schema: public
+  type: table
+serdes/meta:
+- id: Oc2vIrh2_FOJz_xpiJOZ2
+  label: monthly_revenue
+  model: Transform

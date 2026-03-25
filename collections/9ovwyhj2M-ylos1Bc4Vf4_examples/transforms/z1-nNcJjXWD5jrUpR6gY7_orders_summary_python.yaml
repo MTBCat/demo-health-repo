@@ -1,0 +1,36 @@
+collection_id: 9ovwyhj2M-ylos1Bc4Vf4
+created_at: '2026-03-12T14:56:14.09956Z'
+creator_id: andrew@metabase.com
+description: null
+entity_id: z1-nNcJjXWD5jrUpR6gY7
+name: Orders Summary Python
+owner_email: null
+owner_user_id: andrew@metabase.com
+source:
+  body: "# Write your Python transformation script here\nimport common\nimport pandas as pd\n\ndef transform(orders):    \n    \"\"\"\n    Your transformation function.\n\n    Args:\n        orders: DataFrame containing the data from the \"Sample Database PG.public.orders\" table\n\n    Returns:\n        DataFrame to write to the destination table\n    \"\"\"\n    # Your transformation logic here \n\n    orders['month'] = orders['created_at'].to_numpy().astype('datetime64[M]')\n    \n    # Group by the month of the order_date\n    # monthly_summary = orders.groupby(\"month\")['total'].sum()\n\n    monthly_summary = orders.groupby(\"month\").agg(\n    order_sum=('total', 'sum'),\n    order_mean=('total', 'mean'),\n    order_median=('total', 'median'),\n    order_std=('total','std'))\n    \n    return pd.DataFrame(monthly_summary)"
+  query: null
+  source-database: 167
+  source-tables:
+    orders:
+      database_id: 167
+      schema: public
+      table: orders
+      table_id: 1928
+  type: python
+source_database_id: Sample Database PG
+tags:
+- entity_id: XpnI3D4cuGK_u28xG1TCT
+  position: 0
+  tag_id: DeeJHc81qKhD9qWINISO8
+  serdes/meta:
+  - id: XpnI3D4cuGK_u28xG1TCT
+    model: TransformTransformTag
+target:
+  database: Sample Database PG
+  name: orders_summary
+  schema: public
+  type: table
+serdes/meta:
+- id: z1-nNcJjXWD5jrUpR6gY7
+  label: orders_summary_python
+  model: Transform

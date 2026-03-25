@@ -1,0 +1,20 @@
+name: Examples
+description: null
+entity_id: 9ovwyhj2M-ylos1Bc4Vf4
+slug: examples
+created_at: '2026-03-11T17:13:13.92552Z'
+archived: false
+type: null
+parent_id: null
+personal_owner_id: null
+namespace: transforms
+authority_level: null
+serdes/meta:
+- id: 9ovwyhj2M-ylos1Bc4Vf4
+  label: examples
+  model: Collection
+archive_operation_id: null
+archived_directly: null
+is_remote_synced: false
+is_sample: false
+workspace_id: null
