@@ -1,0 +1,15 @@
+name: Active customers
+description: Set of filters that define active customers
+entity_id: UyDBP-dJvpJtcoge_ZRs0
+created_at: '2023-01-11T18:36:27.613673Z'
+archived: false
+collection_id: null
+content: |-
+  AND TRIAL_CONVERTED = true
+  AND ACTIVE_SUBSCRIPTION = true
+creator_id: luiz.arakaki@metabase.com
+template_tags: {}
+serdes/meta:
+- id: UyDBP-dJvpJtcoge_ZRs0
+  label: active_customers
+  model: NativeQuerySnippet
